@@ -1,0 +1,1 @@
+Hacer que lea el globals.css de cada catálogo
