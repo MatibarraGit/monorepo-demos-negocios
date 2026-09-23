@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { LayoutComponent } from "@repo/catalog-core/components/LayoutComponent";
 
-const SITE_NAME = "Fedex Home Importaciones";
+const SITE_NAME = "Montecarlo Hogar";
 const SITE_DESCRIPTION =
-  "Electrodomésticos, herramientas, bicicletas y artículos para el hogar. Catálogo online de Fedex Home Importaciones.";
+  "Electrodomésticos, herramientas, bicicletas y artículos para el hogar. Catálogo online de Montecarlo Hogar.";
 // TODO: reemplazar por el dominio real una vez que el cliente lo defina/compre.
-const SITE_URL = "https://fedexhome.com.ar";
+const SITE_URL = "https://montecarlohogar.com.ar";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -32,9 +32,12 @@ export const metadata: Metadata = {
     "bicicletas",
     "climatización",
     "climatizacion",
+    "muebles",
+    "línea blanca",
+    "blanquería",
+    "bazar",
     "artículos para el hogar",
-    "importaciones",
-    "Fedex Home",
+    "Montecarlo Hogar",
     "comprar online",
     "Argentina",
   ],
@@ -46,7 +49,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     images: [
       {
-        url: "/logo.png",
+        url: "/logo.webp",
         width: 480,
         height: 480,
         alt: SITE_NAME,
@@ -60,7 +63,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
-    images: ["/logo.png"],
+    images: ["/logo.webp"],
   },
 
   robots: {

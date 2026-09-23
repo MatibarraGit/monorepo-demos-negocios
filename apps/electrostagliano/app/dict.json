@@ -1,0 +1,35 @@
+{
+  "HeroCarousel": {
+    "slides": [
+      {
+        "image": "",
+        "eyebrow": "",
+        "title": "",
+        "text": "",
+        "cta": ""
+      },
+      {
+        "image": "",
+        "eyebrow": "",
+        "title": "",
+        "text": "",
+        "cta": ""
+      },
+      {
+        "image": "",
+        "eyebrow": "",
+        "title": "",
+        "text": "",
+        "cta": ""
+      }
+    ]
+  },
+  "AboutSection": {
+    "title": "",
+    "p1": "",
+    "p2": ""
+  },
+  "ContactSection": {
+    "p1": ""
+  }
+}

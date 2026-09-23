@@ -18,7 +18,7 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
           <div className="min-w-0 sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2">
               <Image
-                src="/logo.jpg"
+                src="/logo.png"
                 alt={siteConfig.name}
                 width={80}
                 height={80}

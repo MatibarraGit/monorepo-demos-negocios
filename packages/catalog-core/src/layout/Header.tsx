@@ -33,7 +33,7 @@ export function Header({
       <div className="content-wrapper flex items-center gap-3 py-3 lg:gap-6">
         <a href="#top" className="flex min-w-0 shrink-0 w-fit items-center gap-2">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt={siteName}
             width={40}
             height={40}
