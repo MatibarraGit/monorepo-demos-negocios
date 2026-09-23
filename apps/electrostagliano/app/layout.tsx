@@ -2,17 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { LayoutComponent } from "@repo/catalog-core/components/LayoutComponent";
 
-const SITE_NAME = "Montecarlo Hogar";
-const SITE_DESCRIPTION =
-  "Electrodomésticos, herramientas, bicicletas y artículos para el hogar. Catálogo online de Montecarlo Hogar.";
+const SITE_NAME = "";
+const SITE_DESCRIPTION = "";
 // TODO: reemplazar por el dominio real una vez que el cliente lo defina/compre.
-const SITE_URL = "https://montecarlohogar.com.ar";
+const SITE_URL = "";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title: {
-    default: `${SITE_NAME} | Electrodomésticos y artículos para el hogar`,
+    default: `${SITE_NAME} | `,
     template: `%s | ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -24,22 +23,7 @@ export const metadata: Metadata = {
 
   generator: "Next.js",
   keywords: [
-    "electrodomésticos",
-    "electrodomesticos",
-    "tienda online",
-    "ofertas",
-    "herramientas",
-    "bicicletas",
-    "climatización",
-    "climatizacion",
-    "muebles",
-    "línea blanca",
-    "blanquería",
-    "bazar",
-    "artículos para el hogar",
-    "Montecarlo Hogar",
-    "comprar online",
-    "Argentina",
+    "",
   ],
 
   openGraph: {

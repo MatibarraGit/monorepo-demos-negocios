@@ -1,3 +1,5 @@
+### Pasos
+
 1. Correr `pnpm new-catalog [nombre]`.
 2. Cambiar el puerto donde levanta dev en el package.json.
 3. Correr pnpm install
@@ -9,3 +11,6 @@
 9. Cargar imágenes y assets.
 10. Cargar el favicon.ico.
 
+### Requisitos
+
+- Logo en png y webp
