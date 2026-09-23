@@ -15,7 +15,7 @@ import {
   DropdownMenuTrigger,
 } from "./ui";
 import { buildWhatsAppUrl } from "../libs";
-import { BranchType } from "../types/siteConfig";
+import { BranchType } from "../types/siteConfig.types";
 
 /**
  * Botón flotante de WhatsApp, siempre visible sobre el contenido. Como cada

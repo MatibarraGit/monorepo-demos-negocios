@@ -1,11 +1,7 @@
 {
   "extends": "@repo/typescript-config/nextjs.json",
   "compilerOptions": {
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "plugins": [{ "name": "next" }],
     "strictNullChecks": true
   },
   "include": [
@@ -14,6 +10,6 @@
     "next-env.d.ts",
     "next.config.js",
     ".next/types/**/*.ts"
-  ],
-  "exclude": ["node_modules"]
+, "../../packages/catalog-core/src/contexts/dictionary-context.tsx"  ],
+  "exclude": ["node_modules"],
 }

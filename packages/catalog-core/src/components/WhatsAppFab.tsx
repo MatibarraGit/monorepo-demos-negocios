@@ -5,13 +5,13 @@
 import Image from "next/image";
 
 import { buildWhatsAppUrl } from "../libs";
-import { ContactType } from "../types/siteConfig";
+import { BranchType } from "../types/siteConfig.types";
 
-export function WhatsAppFab({ contact }: { contact: ContactType }) {
+export function WhatsAppFab({ mainBranch }: { mainBranch: BranchType }) {
   return (
     <a
       href={buildWhatsAppUrl(
-        `${contact.phone}`,
+        `${mainBranch.phone}`,
         `¡Hola! Estoy viendo el catálogo online y quería hacer una consulta.`
       )}
       target="_blank"

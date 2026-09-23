@@ -1,4 +1,4 @@
-import type { ProductType } from "../types/product";
+import type { ProductType } from "../types/product.types";
 
 export type CategoryOption = {
   id: number;

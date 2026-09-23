@@ -14,12 +14,16 @@ import {
 
 import { Footer, Header } from "../layout";
 import { ALL_CATEGORIES, filterProducts, getUniqueCategories } from "../libs";
-import type { ProductType } from "../types/product";
-import { SiteConfig } from "../types/siteConfig";
+import type { ProductType } from "../types/product.types";
+import { SiteConfigType } from "../types/siteConfig.types";
 
-export function HomeComponent({ productsData, siteConfig }: { productsData: ProductType[], siteConfig: SiteConfig }) {
+type HomeComponentType = { 
+  products: ProductType[], 
+  siteConfig: SiteConfigType
+}
+
+export function HomeComponent({ products, siteConfig }: HomeComponentType) {
   // Dataset estático — sin fetch, sin API. Todo el filtrado ocurre en el cliente.
-  const products = productsData;
   const categories = getUniqueCategories(products);
 
   const [searchTerm, setSearchTerm] = useState("");
@@ -27,17 +31,17 @@ export function HomeComponent({ productsData, siteConfig }: { productsData: Prod
 
   const filteredProducts = useMemo(
     () => filterProducts(products, { searchTerm, category: selectedCategory }),
-    [searchTerm, selectedCategory]
+    [products, searchTerm, selectedCategory]
   );
 
   return (
     <>
       <span id="top" />
 
-      <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} siteName={siteConfig.name} navLinks={siteConfig.navLinks} contact={siteConfig.contact} />
+      <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} contact={siteConfig.contact} mainBranch={siteConfig.mainBranch} siteName={siteConfig.name} navLinks={siteConfig.navLinks} />
 
       <main className="flex-1">
-        <HeroCarousel contact={siteConfig.contact} />
+        <HeroCarousel mainBranch={siteConfig.mainBranch} />
 
         <section id="catalogo" className="content-wrapper mt-16 scroll-mt-32">
           <div className="mb-6">
@@ -75,7 +79,7 @@ export function HomeComponent({ productsData, siteConfig }: { productsData: Prod
       {siteConfig.branches !== undefined && siteConfig.branches.length > 1 ? (
         <WhatsAppFabDrowpdown branches={siteConfig.branches} />
       ) : (
-        <WhatsAppFab contact={siteConfig.contact} />
+        <WhatsAppFab mainBranch={siteConfig.mainBranch} />
       )}
     </>
   );

@@ -12,36 +12,13 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui";
+import { useDictionary } from "../contexts/dictionary-context";
 import { buildWhatsAppUrl } from "../libs";
-import { ContactType } from "../types/siteConfig";
-
-
-const SLIDES = [
-  {
-    image: "/sucursal-35-2.png",
-    eyebrow: "Línea blanca",
-    title: "Renová tu hogar en cuotas",
-    text: "Heladeras, juegos de comedor y cocinas de las mejores marcas, con entrega en el día.",
-    cta: "Consultar financiación",
-  },
-  {
-    image: "/hero-regalos-dia-del-niño-3.png",
-    eyebrow: "Día del niño",
-    title: "Regalos ideales para los más peques",
-    text: "Bicicletas, muñecas, pistas de autos, bloques de encastre y más variedad en nuestras sucursales!",
-    cta: "Conseguí tu regalo",
-  },
-  {
-    image: "/sucursal-35-4.png",
-    eyebrow: "Lavarropas",
-    title: "Lavarropas de primera marca",
-    text: "Philco, Telefunken, Kanji, Columbia, Midea, Whirpool, y muchas más!",
-    cta: "Pedir asesoramiento",
-  },
-];
+import { BranchType } from "../types/siteConfig.types";
 
 /** Carrusel de destacados con autoplay (embla) — arranca la home. */
-export function HeroCarousel({ contact }: { contact: ContactType }) {
+export function HeroCarousel({ mainBranch }: { mainBranch: BranchType }) {
+  const dict = useDictionary()
   // Lazy init: el plugin se instancia una sola vez, no en cada render.
   const [autoplay] = useState(() => Autoplay({ delay: 5000, stopOnInteraction: false }));
 
@@ -49,7 +26,7 @@ export function HeroCarousel({ contact }: { contact: ContactType }) {
     <section aria-label="Destacados" className="content-wrapper pt-6">
       <Carousel opts={{ loop: true }} plugins={[autoplay]}>
         <CarouselContent>
-          {SLIDES.map((slide, index) => (
+          {dict.HeroCarousel.slides.map((slide, index) => (
             <CarouselItem key={slide.title}>
               <div className="relative h-[260px] overflow-hidden rounded-2xl sm:h-90 lg:h-105">
                 <Image
@@ -75,7 +52,7 @@ export function HeroCarousel({ contact }: { contact: ContactType }) {
                   </p>
                   <Button asChild variant="secondary" className="w-fit font-bold">
                     <a
-                      href={buildWhatsAppUrl(`${contact.phone}`, `¡Hola! Quiero consultar por ${slide.eyebrow}.`)}
+                      href={buildWhatsAppUrl(`${mainBranch.phone}`, `¡Hola! Quiero consultar por ${slide.eyebrow}.`)}
                       target="_blank"
                       rel="noreferrer"
                     >

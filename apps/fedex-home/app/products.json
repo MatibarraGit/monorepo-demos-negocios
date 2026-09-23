@@ -1,0 +1,706 @@
+[
+  {
+    "product_id": 2728,
+    "product_name": "Colchón en Caja 1 Plaza Espuma de Alta Densidad 80x190x18 Cm",
+    "sell_price": 148500,
+    "product_description": null,
+    "category_id": 13,
+    "category_name": "Muebles y dormitorio",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789504876/Colch%C3%B3n%20en%20Caja%201%20Plaza%2080x190x18%20Cm.jpg"
+    ]
+  },
+  {
+    "product_id": 2729,
+    "product_name": "Mezclador de Pintura Eléctrico",
+    "sell_price": 75000,
+    "product_description": "",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507009/Mezclador%20de%20Pintura%20El%C3%A9ctrico.jpg"
+    ]
+  },
+  {
+    "product_id": 2730,
+    "product_name": "Dispensador de Vajilla",
+    "sell_price": 7500,
+    "product_description": "",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507010/Dispensador%20de%20Vajilla.jpg"
+    ]
+  },
+  {
+    "product_id": 2731,
+    "product_name": "Vaso con Sorbete 750ml Afa",
+    "sell_price": 2000,
+    "product_description": "",
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507010/Vaso%20con%20Sorbete%20750ml%20Afa.jpg"
+    ]
+  },
+  {
+    "product_id": 2732,
+    "product_name": "Set de Poker con 200 Fichas",
+    "sell_price": 15000,
+    "product_description": "* Incluye cartas\n* Viene con paño de juego",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507011/Set%20de%20Poker%20con%20200%20Fichas.jpg"
+    ]
+  },
+  {
+    "product_id": 2733,
+    "product_name": "Termotanque Eléctrico Sirena 90 Litros",
+    "sell_price": 288500,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507011/Termotanque%20El%C3%A9ctrico%20Sirena%2090%20Litros.jpg"
+    ]
+  },
+  {
+    "product_id": 2734,
+    "product_name": "Panchera Eléctrica Kanji Capacidad 30 Panchos",
+    "sell_price": 124000,
+    "product_description": "* Incluye sistema de cocción eficiente\n* Diseño compacto y fácil de limpiar",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507012/Panchera%20El%C3%A9ctrica%20Kanji%20Capacidad%2030%20Panchos.jpg"
+    ]
+  },
+  {
+    "product_id": 2735,
+    "product_name": "Termotanque Eléctrico Sirena 60 Litros",
+    "sell_price": 268000,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507012/Termotanque%20El%C3%A9ctrico%20Sirena%2060%20Litros.jpg"
+    ]
+  },
+  {
+    "product_id": 2736,
+    "product_name": "Botella Motivacional 3 en 1",
+    "sell_price": 6500,
+    "product_description": "",
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507012/Botella%20Motivacional%203%20en%201.jpg"
+    ]
+  },
+  {
+    "product_id": 2737,
+    "product_name": "Pedalera Fija Oryx",
+    "sell_price": 41000,
+    "product_description": "* Diseño de estructura fija para mayor estabilidad\n* Ideal para ejercicios de rehabilitación y fortalecimiento",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507013/Pedalera%20Fija%20Oryx.jpg"
+    ]
+  },
+  {
+    "product_id": 2738,
+    "product_name": "Espejo Redondo de 60cm con Luz",
+    "sell_price": 50000,
+    "product_description": "* Incluye iluminación led integrada\n* Cuenta con puerto para carga usb",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507013/Espejo%20Redondo%20de%2060cm%20con%20Luz.jpg"
+    ]
+  },
+  {
+    "product_id": 2740,
+    "product_name": "Banco de Hiperextension de 3 Niveles de Ajuste",
+    "sell_price": 125500,
+    "product_description": "* Diseño robusto para entrenamiento de espalda\n* Estructura resistente para mayor seguridad",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507157/Banco%20de%20Hiperextension%20de%203%20Niveles%20de%20Ajuste.jpg"
+    ]
+  },
+  {
+    "product_id": 2741,
+    "product_name": "Lavarropas Automático Oryx 7.5 Kg",
+    "sell_price": 479000,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507158/Lavarropas%20Autom%C3%A1tico%20Oryx%207.5%20Kg.jpg"
+    ]
+  },
+  {
+    "product_id": 2743,
+    "product_name": "Barra de Dominadas",
+    "sell_price": 111500,
+    "product_description": "",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507158/Barra%20de%20Dominadas.jpg"
+    ]
+  },
+  {
+    "product_id": 2739,
+    "product_name": "Banco Multifunción de 100 Kilos",
+    "sell_price": 128500,
+    "product_description": null,
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507156/Banco%20Multifunci%C3%B3n%20de%20100%20Kilos.jpg"
+    ]
+  },
+  {
+    "product_id": 2742,
+    "product_name": "Lavarropas Columbia Semiautomático 10kg sin Bomba de Desagote",
+    "sell_price": 204500,
+    "product_description": null,
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507158/Lavarropas%20Columbia%2010kg.jpg"
+    ]
+  },
+  {
+    "product_id": 2747,
+    "product_name": "Bloques de Construcción de 413 Piezas",
+    "sell_price": 22500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507159/Bloques%20de%20Construcci%C3%B3n%20de%20413%20Piezas.jpg"
+    ]
+  },
+  {
+    "product_id": 2754,
+    "product_name": "Motosierra Eléctrica Inalámbrica",
+    "sell_price": 45000,
+    "product_description": null,
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507164/Motosierra%20El%C3%A9ctrica%20Inal%C3%A1mbrica.jpg"
+    ]
+  },
+  {
+    "product_id": 2744,
+    "product_name": "Lavarropa Semiautomático Columbia 10kg con Bomba de Desagote",
+    "sell_price": 222500,
+    "product_description": null,
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507158/Lavarropa%20Semiautom%C3%A1tico%20Columbia%2010kg.jpg"
+    ]
+  },
+  {
+    "product_id": 2748,
+    "product_name": "Taladro Rotopercutor Inalambrico Oryx",
+    "sell_price": 51000,
+    "product_description": "",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507160/Taladro%20Rotopercutor%20Inalambrico%20Oryx.jpg"
+    ]
+  },
+  {
+    "product_id": 2749,
+    "product_name": "Arco Y Flecha de Batman",
+    "sell_price": 7500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507161/Arco%20Y%20Flecha%20de%20Batman.jpg"
+    ]
+  },
+  {
+    "product_id": 2750,
+    "product_name": "Tiro Al Blanco Spiderman",
+    "sell_price": 5500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507162/Tiro%20Al%20Blanco%20Spiderman.jpg"
+    ]
+  },
+  {
+    "product_id": 2751,
+    "product_name": "Muñeca con Auto Convertible",
+    "sell_price": 23500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507162/Mu%C3%B1eca%20con%20Auto%20Convertible.jpg"
+    ]
+  },
+  {
+    "product_id": 2752,
+    "product_name": "Alfombra de Piano Musical Musical",
+    "sell_price": 32500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507162/Alfombra%20de%20Piano%20Musical%20Musical.jpg"
+    ]
+  },
+  {
+    "product_id": 2753,
+    "product_name": "Set de Pastelería de 63 Piezas",
+    "sell_price": 14000,
+    "product_description": "",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507163/Set%20de%20Pasteler%C3%ADa%20de%2063%20Piezas.jpg"
+    ]
+  },
+  {
+    "product_id": 2746,
+    "product_name": "Lavarropas Semiautomático 7kg Columbia Blanco con Bomba de Desagote",
+    "sell_price": 200500,
+    "product_description": null,
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507158/Lavarropas%20Semiautom%C3%A1tico%207kg%20Columbia%20Blanco.jpg"
+    ]
+  },
+  {
+    "product_id": 2745,
+    "product_name": "Banco Abdominal de Entrenamiento",
+    "sell_price": 87000,
+    "product_description": "* Ideal para fortalecer la zona media del cuerpo\n* Diseño estable y seguro para realizar ejercicios abdominales",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507158/Banco%20Abdominal%20de%20Entrenamiento.jpg"
+    ]
+  },
+  {
+    "product_id": 2755,
+    "product_name": "Cubiertos de Acero Inoxidable X 24 Unidades",
+    "sell_price": 18000,
+    "product_description": "",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507164/Cubiertos%20de%20Acero%20Inoxidable%20X%2024%20Unidades.jpg"
+    ]
+  },
+  {
+    "product_id": 2756,
+    "product_name": "Caminadora Eléctrica Oryx 1.5 Hp Capacidad 120 Kg",
+    "sell_price": 480000,
+    "product_description": "* Incluye monitor de pulso distancia calorías velocidad y tiempo\n* Cuenta con 2 niveles de inclinación y velocidad ajustable de 1.0 a 14 km/h",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507164/Caminadora%20El%C3%A9ctrica%20Oryx%201.5%20Hp%20Capacidad%20120%20Kg.jpg"
+    ]
+  },
+  {
+    "product_id": 2757,
+    "product_name": "Caminadora Eléctrica con Apoyabrazos Y Soporte para Teléfonos",
+    "sell_price": 287500,
+    "product_description": "* Permite monitorear el tiempo, las calorías, la velocidad y la distancia recorrida\n* Cuenta con niveles de inclinación ajustables",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507164/Caminadora%20El%C3%A9ctrica%20con%20Apoyabrazos%20Y%20Soporte%20para%20Tel%C3%A9fonos.jpg"
+    ]
+  },
+  {
+    "product_id": 2758,
+    "product_name": "Pistola de Pintura con Accesorios",
+    "sell_price": 31500,
+    "product_description": null,
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507164/Pistola%20de%20Pintura.jpg"
+    ]
+  },
+  {
+    "product_id": 2759,
+    "product_name": "Heladera con Freezer 200l",
+    "sell_price": 505000,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507386/Heladera%20con%20Freezer%20200l.jpg"
+    ]
+  },
+  {
+    "product_id": 2760,
+    "product_name": "Horno Eléctrico Kanji 28 Litros",
+    "sell_price": 90000,
+    "product_description": "",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507387/Horno%20El%C3%A9ctrico%20Kanji%2028%20Litros.jpg"
+    ]
+  },
+  {
+    "product_id": 2761,
+    "product_name": "Set de Herramientas de 216 Piezas",
+    "sell_price": 125000,
+    "product_description": "",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507387/Set%20de%20Herramientas%20de%20216%20Piezas.jpg"
+    ]
+  },
+  {
+    "product_id": 2762,
+    "product_name": "Horno Eléctrico Kanji 70 Litros",
+    "sell_price": 190000,
+    "product_description": "",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507387/Horno%20El%C3%A9ctrico%20Kanji%2070%20Litros.jpg"
+    ]
+  },
+  {
+    "product_id": 2763,
+    "product_name": "Horno Kanji 100 Litros Gris",
+    "sell_price": 262500,
+    "product_description": "* Mide 68 de largo x 45 de ancho x 42 de alto",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507388/Horno%20Kanji%20100%20Litros%20Gris.jpg"
+    ]
+  },
+  {
+    "product_id": 2764,
+    "product_name": "Freezer de Pozo Serie 300",
+    "sell_price": 620500,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507388/Freezer%20de%20Pozo%20Serie%20300.jpg"
+    ]
+  },
+  {
+    "product_id": 2765,
+    "product_name": "Masajeador de Cuello con Manitos",
+    "sell_price": 21500,
+    "product_description": "",
+    "category_id": 9,
+    "category_name": "Salud y equipamiento",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507389/Masajeador%20de%20Cuello%20con%20Manitos.jpg"
+    ]
+  },
+  {
+    "product_id": 2766,
+    "product_name": "Balanza de Baño Personal",
+    "sell_price": 10000,
+    "product_description": "",
+    "category_id": 9,
+    "category_name": "Salud y equipamiento",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507389/Balanza%20de%20Ba%C3%B1o%20Personal.jpg"
+    ]
+  },
+  {
+    "product_id": 2767,
+    "product_name": "Juego de 4 Cestas de Almacenamiento de Tela Variadas",
+    "sell_price": 26000,
+    "product_description": "* Set de 4 unidades de diferentes tamaños\n* Fabricadas en tela resistente",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507389/Juego%20de%204%20Cestas%20de%20Almacenamiento%20de%20Tela%20Variadas.jpg"
+    ]
+  },
+  {
+    "product_id": 2772,
+    "product_name": "Parlante Neptune de 8 Pulgadas",
+    "sell_price": 34000,
+    "product_description": "",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507390/Parlante%20Neptune%20de%208%20Pulgadas.jpg"
+    ]
+  },
+  {
+    "product_id": 2778,
+    "product_name": "Smart Tv Kanji 50 Pulgadas",
+    "sell_price": 576000,
+    "product_description": "",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507391/Smart%20Tv%20Kanji%2050%20Pulgadas.jpg"
+    ]
+  },
+  {
+    "product_id": 2779,
+    "product_name": "Secaplatos 3 Niveles Oryx",
+    "sell_price": 45000,
+    "product_description": "",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507392/Secaplatos%203%20Niveles%20Oryx.jpg"
+    ]
+  },
+  {
+    "product_id": 2770,
+    "product_name": "Termo de Acero de 500 Ml con Pico Cebador",
+    "sell_price": 13000,
+    "product_description": null,
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507390/Termo%20de%20Acero%20de%20500%20Ml%20con%20Pico%20Cebador.jpg"
+    ]
+  },
+  {
+    "product_id": 2780,
+    "product_name": "Crimpeadora para Tiff",
+    "sell_price": 19500,
+    "product_description": null,
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507392/Crimpeadora%20para%20Tiff.jpg"
+    ]
+  },
+  {
+    "product_id": 2775,
+    "product_name": "Mesa de Aglomerado Compacto para Living",
+    "sell_price": 33500,
+    "product_description": "* Incluye 3 piezas\n* Cuenta con lámina simil mármol",
+    "category_id": 13,
+    "category_name": "Muebles y dormitorio",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507390/Mesa%20de%20Aglomerado%20Compacto%20para%20Living.jpg"
+    ]
+  },
+  {
+    "product_id": 2781,
+    "product_name": "Almohada Inteligente Viscoelastica",
+    "sell_price": 24000,
+    "product_description": "",
+    "category_id": 13,
+    "category_name": "Muebles y dormitorio",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507392/Almohada%20Inteligente%20Viscoelastica.jpg"
+    ]
+  },
+  {
+    "product_id": 2782,
+    "product_name": "Mate Listo 700ml",
+    "sell_price": 19500,
+    "product_description": "",
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507393/Mate%20Listo%20700ml.jpg"
+    ]
+  },
+  {
+    "product_id": 2783,
+    "product_name": "Set de Ollas 11 Piezas",
+    "sell_price": 73500,
+    "product_description": "",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507393/Set%20de%20Ollas%2011%20Piezas.jpg"
+    ]
+  },
+  {
+    "product_id": 2784,
+    "product_name": "Mate Listo 500ml",
+    "sell_price": 17500,
+    "product_description": "",
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507395/Mate%20Listo%20500ml.jpg"
+    ]
+  },
+  {
+    "product_id": 2786,
+    "product_name": "Botella Sport River",
+    "sell_price": 14500,
+    "product_description": "",
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507395/Botella%20Sport%20River.jpg"
+    ]
+  },
+  {
+    "product_id": 2788,
+    "product_name": "Espejo con Luz Led Cuadrado Grande",
+    "sell_price": 10500,
+    "product_description": "",
+    "category_id": 8,
+    "category_name": "Belleza y cuidado personal",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507395/Espejo%20con%20Luz%20Led%20Cuadrado%20Grande.jpg"
+    ]
+  },
+  {
+    "product_id": 2790,
+    "product_name": "Toallero Repisa para Baño de 60cm",
+    "sell_price": 14500,
+    "product_description": "",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507396/Toallero%20Repisa%20para%20Ba%C3%B1o%20de%2060cm.jpg"
+    ]
+  },
+  {
+    "product_id": 2792,
+    "product_name": "Mini Planchita Osr",
+    "sell_price": 5500,
+    "product_description": "",
+    "category_id": 8,
+    "category_name": "Belleza y cuidado personal",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507397/Mini%20Planchita%20Osr.jpg"
+    ]
+  },
+  {
+    "product_id": 2793,
+    "product_name": "Espejo de Cuerpo Entero 34x146 Cm",
+    "sell_price": 27000,
+    "product_description": "",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507398/Espejo%20de%20Cuerpo%20Entero%2034x146%20Cm.jpg"
+    ]
+  },
+  {
+    "product_id": 2794,
+    "product_name": "Caja de Seguridad Digital",
+    "sell_price": 37000,
+    "product_description": "",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507397/Caja%20de%20Seguridad%20Digital.jpg"
+    ]
+  },
+  {
+    "product_id": 2795,
+    "product_name": "Luz de Emergencia Led 60 Unidades",
+    "sell_price": 12000,
+    "product_description": "",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507398/Luz%20de%20Emergencia%20Led%2060%20Unidades.jpg"
+    ]
+  },
+  {
+    "product_id": 2771,
+    "product_name": "Hidrolavadora 1600w 130 bar",
+    "sell_price": 116500,
+    "product_description": null,
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507390/Hidrolavadora%201600w.jpg"
+    ]
+  },
+  {
+    "product_id": 2776,
+    "product_name": "Dispenser de Agua Fría y Caliente Onica",
+    "sell_price": 200000,
+    "product_description": null,
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507390/Dispenser%20de%20Agua%20Onica.jpg"
+    ]
+  },
+  {
+    "product_id": 2777,
+    "product_name": "Smart Tv 65 Pulgadas Kanji",
+    "sell_price": 1051000,
+    "product_description": null,
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507391/Smart%20Tv%2065%20Pulgadas%20Kanji.jpg"
+    ]
+  },
+  {
+    "product_id": 2785,
+    "product_name": "Freidora de Aire 6.5 Litros Kanji con Pantalla Digital",
+    "sell_price": 84500,
+    "product_description": null,
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507395/Freidora%20sin%20Aceite%206%205%20Litros%20Kanji.jpg"
+    ]
+  },
+  {
+    "product_id": 2787,
+    "product_name": "Botella Sport Boca",
+    "sell_price": 14500,
+    "product_description": null,
+    "category_id": 6,
+    "category_name": "Botellas, vasos y termos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507395/Botella%20Sport%20Boca.jpg"
+    ]
+  },
+  {
+    "product_id": 2789,
+    "product_name": "Espejo con Luz de 3 Paneles",
+    "sell_price": 18500,
+    "product_description": null,
+    "category_id": 8,
+    "category_name": "Belleza y cuidado personal",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507396/Espejo%20con%20Luz%20de%203%20Paneles.jpg"
+    ]
+  },
+  {
+    "product_id": 2791,
+    "product_name": "Plancha Seca 1000w Tipo Profile",
+    "sell_price": 16500,
+    "product_description": null,
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1789507397/Plancha%20Seca%201000w.jpg"
+    ]
+  }
+]

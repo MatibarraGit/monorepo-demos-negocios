@@ -1,4 +1,4 @@
-import type { ProductType } from "../types/product";
+import type { ProductType } from "../types/product.types";
 
 /** Valor de `selectedCategory` que representa "sin filtro de categoría". */
 export const ALL_CATEGORIES = "todas";

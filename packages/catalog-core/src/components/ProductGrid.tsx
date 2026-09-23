@@ -1,7 +1,7 @@
 import { PackageSearch } from "lucide-react";
 
 import { ProductCard } from "./ProductCard";
-import type { ProductType } from "../types/product";
+import type { ProductType } from "../types/product.types";
 
 type ProductGridProps = {
   products: ProductType[];

@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../../../packages/catalog-core/src";
+@import "tw-animate-css";
 
 /* ---------------------------------------------------------------------- */
 /* Fuentes (ya alojadas en public/fonts, solo se declaran los @font-face). */

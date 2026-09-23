@@ -1,7 +1,7 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-import type { CartItemType } from "../types/cart";
+import type { CartItemType } from "../types/cart.types";
 
 /** Tope de cantidad por producto — evita valores absurdos ya que el dataset no informa stock real. */
 const MAX_QUANTITY_PER_ITEM = 20;

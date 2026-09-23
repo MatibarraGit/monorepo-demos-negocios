@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { memo, useState } from "react";
@@ -19,7 +18,7 @@ import {
 } from "./ui";
 import { cartContext } from "../contexts/cart-context";
 import { formatPrice } from "../libs";
-import type { ProductType } from "../types/product";
+import type { ProductType } from "../types/product.types";
 
 type ProductCardProps = {
   product: ProductType;
@@ -64,7 +63,7 @@ function ProductCardComponent({ product }: ProductCardProps) {
   return (
     // theme-light: la card se ve igual en modo claro y oscuro. Las fotos de
     // producto vienen con fondo blanco fijo, así que toda la card (fondo, texto,
-    // bordes y controles) se fuerza a la paleta clara. Ver globals.css.
+    // bordes y controles) se fuerza a la paleta clara. Ver globalsf.
     <Card className="theme-light shadow-elevated flex h-full flex-col gap-3 overflow-hidden py-0 pb-4 transition-shadow hover:shadow-lg">
       <div className="bg-card relative aspect-square w-full overflow-hidden p-3">
         {image ? (

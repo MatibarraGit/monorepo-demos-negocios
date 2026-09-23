@@ -1,6 +1,6 @@
-import type { SiteConfig } from "@repo/catalog-core/types/siteConfig";
+import type { SiteConfigInput } from "@repo/catalog-core/types/siteConfig.types";
 
-export const siteConfig: SiteConfig = {
+export const siteConfig: SiteConfigInput = {
   name: "Fedex Home",
   description:
     "Distribuidora mayorista y minorista de electrodomésticos, artículos del hogar, electrónica, juguetes, y más!",
@@ -9,28 +9,28 @@ export const siteConfig: SiteConfig = {
     hours: [
       { days: "Lunes a sábados", hours: "10:00 – 18:00" },
       { days: "Domingos", hours: "Cerrado" },
-    ],
-    phone: "+5491132406128",
-    phoneDisplay: "+54 9 11 3240-6128",
-    // contactEmail: "",
+    ]
   },
 
   social: {
-    instagram: "https://www.instagram.com/fedexhome.importaciones",
-    facebook: "https://www.facebook.com/p/FEDEX-HOME-Importaciones-100063704005874",
+    instagram: "@fedexhome.importaciones",
+    instagramHref: "https://www.instagram.com/fedexhome.importaciones",
+    facebook: "FEDEX HOME - Importaciones",
+    facebookHref: "https://www.facebook.com/p/FEDEX-HOME-Importaciones-100063704005874",
   },
 
-  mainBranch: {
+  branches: [{
     id: "1",
     name: "Única Sucursal",
+    phone: "+5491132406128",
+    phoneDisplay: "+54 9 11 3240-6128",
     address: "Rodríguez Peña 309, Banfield, Buenos Aires",
     addressHref: "https://maps.app.goo.gl/6yP2N1GX26VvYT6N6",
     image: "/sucursal.png",
     imageAlt: "Frente del salón de ventas de Fedex Home Importaciones en Banfield",
-  },
+  }],
 
-  whatsappDefaultMessage:
-    "¡Hola! Estoy viendo el catálogo online y quería hacer una consulta.",
+  whatsappDefaultMessage: "¡Hola! Estoy viendo el catálogo online y quería hacer una consulta.",
 
   navLinks: [
     { href: "#catalogo", label: "Catálogo" },

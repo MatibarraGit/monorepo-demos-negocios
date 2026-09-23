@@ -3,25 +3,26 @@ import { Clock, Mail, MapPin, Phone, SquareArrowOutUpRight } from "lucide-react"
 
 import { Button } from "./ui";
 import { buildWhatsAppUrl, cn } from "../libs";
-import { BranchType, ContactType, SiteConfig } from "../types/siteConfig";
+import { BranchType, ContactType, HoursType, SiteConfigType } from "../types/siteConfig.types";
+import { useDictionary } from "../contexts/dictionary-context";
 
-export function ContactSection({ siteConfig }: { siteConfig: SiteConfig }) {
+export function ContactSection({ siteConfig }: { siteConfig: SiteConfigType }) {
   const { branches, contact, mainBranch } = siteConfig
+  const dict = useDictionary()
 
   return (
     <section id="contacto" className="content-wrapper mt-16 scroll-mt-32">
-      <div className="max-w-2xl">
+      <div>
         <span className="text-secondary text-xs font-bold tracking-widest uppercase">
           Contacto
         </span>
         <h2 className="mt-2 text-3xl uppercase sm:text-4xl">Estamos para ayudarte</h2>
-        <p className="text-muted-foreground mt-4">
-          Tenemos tres sucursales para atenderte. Escribinos por WhatsApp a la que te quede más
-          cerca y coordinamos precios, stock y entrega.
+        <p className="mt-1 text-muted-foreground">
+          {dict.ContactSection.p1}
         </p>
       </div>
 
-      {branches !== undefined && branches.length > 1 ? (
+      {branches.length > 1 ? (
         <BranchesComponent branches={branches} contact={contact} mainBranch={mainBranch} />
       ) : (
         <OneBranchComponent contact={contact} mainBranch={mainBranch} />
@@ -49,7 +50,7 @@ const BranchesComponent = ({ branches, contact, mainBranch }: { branches: Branch
               {contact.contactEmail}
             </a>
             <p className="text-primary-foreground/60 mt-1 text-xs">
-              Mismo email para las tres sucursales.
+              Mismo email para todas las sucursales.
             </p>
           </div>
         </div>
@@ -59,14 +60,14 @@ const BranchesComponent = ({ branches, contact, mainBranch }: { branches: Branch
           <div className="min-w-0">
             <p className="font-bold">Horarios</p>
             <ul className="text-primary-foreground/80 text-sm">
-              {contact.hours.map((entry: any) => (
+              {contact.hours.map((entry: HoursType) => (
                 <li key={entry.days}>
                   {entry.days}: {entry.hours}
                 </li>
               ))}
             </ul>
             <p className="text-primary-foreground/60 mt-1 text-xs">
-              Mismos horarios para las tres sucursales.
+              Mismos horarios en todas las sucursales.
             </p>
           </div>
         </div>
@@ -74,12 +75,14 @@ const BranchesComponent = ({ branches, contact, mainBranch }: { branches: Branch
 
       {/* Una tarjeta por sucursal: imagen, dirección y teléfono propios */}
       <ul className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-        {branches.map((branch: any) => (
+        {branches.map((branch: BranchType) => (
           <li
             key={branch.id}
             className={cn(
               "border-border bg-card shadow-elevated flex flex-col overflow-hidden rounded-2xl border",
-              branch.id === mainBranch.id ? "md:row-start-2 md:col-span-2 lg:row-start-auto lg:col-span-1" : "md:row-start-1 lg:row-start-auto"
+              branch.id === mainBranch.id 
+              ? "md:row-start-2 md:col-span-2 lg:row-start-auto lg:col-span-1" 
+              : "md:row-start-1 lg:row-start-auto"
             )}
           >
             <div className="relative">
@@ -120,7 +123,7 @@ const BranchesComponent = ({ branches, contact, mainBranch }: { branches: Branch
                   <div className="min-w-0">
                     <p className="text-sm font-bold">Teléfono</p>
                     <a
-                      href={`tel:${branch.whatsappPhone}`}
+                      href={`tel:${branch.phone}`}
                       className="text-muted-foreground hover:text-foreground text-sm transition-colors"
                     >
                       {branch.phoneDisplay}
@@ -132,8 +135,8 @@ const BranchesComponent = ({ branches, contact, mainBranch }: { branches: Branch
               <Button asChild className="mt-auto w-full font-bold">
                 <a
                   href={buildWhatsAppUrl(
-                    `¡Hola! Estoy viendo el catálogo online y quería hacer una consulta sobre la ${branch.name}.`,
-                    branch.whatsappPhone
+                    branch.phone!,
+                    `¡Hola! Estoy viendo el catálogo online y quería hacer una consulta sobre la ${branch.name}.`
                   )}
                   target="_blank"
                   rel="noreferrer"
@@ -159,13 +162,20 @@ const BranchesComponent = ({ branches, contact, mainBranch }: { branches: Branch
 
 const OneBranchComponent = ({ contact, mainBranch }: { contact: ContactType, mainBranch: BranchType }) => {
   return (
-    <div className="grid gap-x-8 md:grid-cols-2 md:items-center md:mt-4 md:h-96">
+    <div className="grid gap-x-8 md:grid-cols-2 md:items-center md:mt-6 md:h-96">
+      {/* Columna derecha: imagen */}
+      <div className="h-96 my-4 relative overflow-hidden rounded-2xl md:my-0 md:order-last">
+        <Image
+          src={mainBranch.image}
+          alt={mainBranch.imageAlt}
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover"
+        />
+      </div>
+      
       {/* Columna izquierda: info + CTA */}
       <div className="h-full flex flex-col gap-6">
-        <p className="text-muted-foreground">
-          Estamos ubicados en Rodríguez Peña 309, Banfield. Escribinos por WhatsApp y coordinamos precios, stock y entrega.
-        </p>
-
         <ul className="grid gap-4">
           <li className="flex items-start gap-3">
             <MapPin className="text-secondary mt-0.5 size-5 shrink-0" aria-hidden />
@@ -188,10 +198,10 @@ const OneBranchComponent = ({ contact, mainBranch }: { contact: ContactType, mai
             <div className="min-w-0">
               <p className="text-sm font-bold">Teléfono</p>
               <a
-                href={`tel:${contact.phone}`}
+                href={`tel:${mainBranch.phone}`}
                 className="flex gap-2 items-center text-muted-foreground hover:text-foreground text-sm transition-colors"
               >
-                {contact.phoneDisplay}
+                {mainBranch.phoneDisplay}
                 <SquareArrowOutUpRight width={18} height={18}/>
               </a>
             </div>
@@ -215,8 +225,8 @@ const OneBranchComponent = ({ contact, mainBranch }: { contact: ContactType, mai
         <Button asChild className="w-full mt-auto font-bold md:py-6">
           <a
             href={buildWhatsAppUrl(
-              "¡Hola! Estoy viendo el catálogo online y quería hacer una consulta",
-              contact.phone
+              mainBranch.phone,
+              "¡Hola! Estoy viendo el catálogo online y quería hacer una consulta"
             )}
             target="_blank"
             rel="noreferrer"
@@ -232,17 +242,6 @@ const OneBranchComponent = ({ contact, mainBranch }: { contact: ContactType, mai
             Escribir por WhatsApp
           </a>
         </Button>
-      </div>
-
-      {/* Columna derecha: imagen */}
-      <div className="h-96 mt-4 relative overflow-hidden rounded-2xl md:mt-0">
-        <Image
-          src={mainBranch.image}
-          alt={mainBranch.imageAlt}
-          fill
-          sizes="(max-width: 768px) 100vw, 50vw"
-          className="object-cover"
-        />
       </div>
     </div>
   )

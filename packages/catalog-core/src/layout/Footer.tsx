@@ -1,9 +1,11 @@
 import Image from "next/image";
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Clock, MapPin, Phone } from "lucide-react";
 
-import { SiteConfig } from "../types/siteConfig";
+import { BranchType, SiteConfigType } from "../types/siteConfig.types";
 
-export function Footer({ siteConfig }: { siteConfig: SiteConfig }) {
+export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
+  const IS_UNIQUE_BRANCH = siteConfig.branches.length === 1
+
   return (
     <footer className="bg-primary text-primary-foreground mt-16">
       <div className="content-wrapper py-10">
@@ -65,7 +67,7 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfig }) {
                 de Navegación, en vez de estirarse a toda la columna. */}
             <div className="mt-3 flex flex-col items-start gap-3">
               <a
-                href={siteConfig.social.instagram}
+                href={siteConfig.social.instagramHref}
                 target="_blank"
                 rel="noreferrer"
                 className="text-primary-foreground/80 hover:text-primary-foreground flex items-center gap-2 py-2 text-sm transition-colors"
@@ -77,11 +79,11 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfig }) {
                   height={80}
                   className="size-6 shrink-0"
                 />
-                <span>@fedexhome.importaciones</span>
+                <span>{siteConfig.social.instagram}</span>
               </a>
 
               <a
-                href={siteConfig.social.facebook}
+                href={siteConfig.social.facebookHref}
                 target="_blank"
                 rel="noreferrer"
                 className="text-primary-foreground/80 hover:text-primary-foreground flex items-center gap-2 py-2 text-sm transition-colors"
@@ -93,47 +95,44 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfig }) {
                   height={80}
                   className="size-6 shrink-0"
                 />
-                <span>FEDEX HOME - Importaciones</span>
+                <span>{siteConfig.social.facebook}</span>
               </a>
             </div>
           </div>
         </div>
 
         <article className="mt-12">
-          <h3 className="text-lg uppercase">Nuestra sucursal</h3>
+          <h3 className="text-lg uppercase">{IS_UNIQUE_BRANCH ? "Nuestra sucursal" : "Nuestras sucursales"}</h3>
 
-          <div className="min-w-0 mt-2 flex flex-col gap-2">
-            <a
-              className="text-primary-foreground/75 hover:text-primary-foreground mt-1.5 flex items-start gap-2 py-0.5 text-sm transition-colors"
-              href={siteConfig.mainBranch.addressHref}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden />
-              {siteConfig.mainBranch.address}
-            </a>
-
-            <a
-              className="text-primary-foreground/75 hover:text-primary-foreground flex items-center gap-2 py-0.5 text-sm tabular-nums transition-colors"
-              href={`tel:${siteConfig.contact.phone}`}
-            >
-              <Phone className="size-4 shrink-0" aria-hidden />
-              {siteConfig.contact.phoneDisplay}
-            </a>
-
-            <div
-              className="text-primary-foreground/75 hover:text-primary-foreground flex items-center gap-2 py-0.5 text-sm tabular-nums transition-colors"
-            >
-              <Clock className="size-4 shrink-0" aria-hidden />
-                <ul>
-                  {siteConfig.contact.hours.map((entry) => (
-                    <li key={entry.days}>
-                      {entry.days}: {entry.hours}
-                    </li>
-                  ))}
-                </ul>
+          {IS_UNIQUE_BRANCH ? (
+            <div className="min-w-0 mt-2 flex flex-col gap-2">              
+              <FooterBranchInformation mainBranch={siteConfig.mainBranch} />
+              
+              <div
+                className="text-primary-foreground/75 hover:text-primary-foreground flex items-center gap-2 py-0.5 text-sm tabular-nums transition-colors"
+              >
+                <Clock className="size-4 shrink-0" aria-hidden />
+                  <ul>
+                    {siteConfig.contact.hours.map((entry) => (
+                      <li key={entry.days}>
+                        {entry.days}: {entry.hours}
+                      </li>
+                    ))}
+                  </ul>
+              </div>
             </div>
-          </div>
+          ) : (
+            <ul className="mt-5 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
+              {siteConfig.branches.map((branch) => (
+                <li key={branch.id} className="flex gap-3">
+                  <div className="min-w-0">
+                    <p className="font-bold">{branch.name}</p>
+                    <FooterBranchInformation mainBranch={siteConfig.mainBranch} />
+                  </div>
+                </li>
+              ))}
+            </ul>
+          )}
         </article>
       </div>
 
@@ -145,4 +144,28 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfig }) {
       </div>
     </footer>
   );
+}
+
+const FooterBranchInformation = ({ mainBranch }: { mainBranch: BranchType }) => {
+  return (
+    <>
+      <a
+        className="text-primary-foreground/75 hover:text-primary-foreground mt-1.5 flex items-start gap-2 py-0.5 text-sm transition-colors"
+        href={mainBranch.addressHref}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden />
+        {mainBranch.address}
+      </a>
+
+      <a
+        className="text-primary-foreground/75 hover:text-primary-foreground flex items-center gap-2 py-0.5 text-sm tabular-nums transition-colors"
+        href={`tel:${mainBranch.phone}`}
+      >
+        <Phone className="size-4 shrink-0" aria-hidden />
+        {mainBranch.phoneDisplay}
+      </a>
+    </>
+  )
 }

@@ -15,10 +15,10 @@ import {
 } from "../ui";
 import { cartContext } from "../../contexts/cart-context";
 import { buildWhatsAppUrl, formatPrice } from "../../libs";
-import { ContactType } from "../../types/siteConfig";
+import { BranchType, ContactType } from "../../types/siteConfig.types";
 
 /** Botón de carrito (con contador) + panel lateral con el detalle, el total y el envío por WhatsApp. */
-export function CartSheet({ contact }: { contact: ContactType }) {
+export function CartSheet({ contact, mainBranch }: { contact: ContactType, mainBranch: BranchType }) {
   const items = cartContext((state) => state.items);
   const increaseQuantity = cartContext((state) => state.increaseQuantity);
   const decreaseQuantity = cartContext((state) => state.decreaseQuantity);
@@ -134,7 +134,7 @@ export function CartSheet({ contact }: { contact: ContactType }) {
 
           <Button asChild={items.length > 0} disabled={items.length === 0} className="w-full font-bold">
             {items.length > 0 ? (
-              <a href={buildWhatsAppUrl(contact.phone, whatsappMessage)} target="_blank" rel="noreferrer">
+              <a href={buildWhatsAppUrl(mainBranch.phone, whatsappMessage)} target="_blank" rel="noreferrer">
                 Enviar pedido por WhatsApp
               </a>
             ) : (
