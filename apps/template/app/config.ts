@@ -1,6 +1,19 @@
-import type { SiteConfigInput } from "@repo/catalog-core/types/siteConfig.types";
+import type { MainBranchType, SiteConfigType } from "@repo/catalog-core/types/siteConfig.types";
 
-export const siteConfig: SiteConfigInput = {
+// Hago esto para poder usar el tipado de MainBranchType, el cual tiene phone y phoneDisplay obligatorios.
+const mainBranch: MainBranchType = {
+  id: "",
+  name: "",
+  tile: "",
+  address: "",
+  addressHref: "",
+  phoneDisplay: "",
+  phone: "",
+  image: "",
+  imageAlt: "",
+}
+
+export const siteConfig: SiteConfigType = {
   name: "",
   description: "",
 
@@ -19,17 +32,9 @@ export const siteConfig: SiteConfigInput = {
     facebookHref: "",
   },
 
+  mainBranch: mainBranch,
   branches: [
-    {
-      id: "",
-      name: "",
-      address: "",
-      addressHref: "",
-      phoneDisplay: "",
-      phone: "",
-      image: "",
-      imageAlt: "",
-    }
+    mainBranch
   ],
 
   whatsappDefaultMessage: "¡Hola! Estoy viendo el catálogo online y quería hacer una consulta.",

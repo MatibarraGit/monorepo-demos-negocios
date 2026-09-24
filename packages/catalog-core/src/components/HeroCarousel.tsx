@@ -14,10 +14,10 @@ import {
 } from "./ui";
 import { useDictionary } from "../contexts/dictionary-context";
 import { buildWhatsAppUrl } from "../libs";
-import { BranchType } from "../types/siteConfig.types";
+import { MainBranchType } from "../types/siteConfig.types";
 
 /** Carrusel de destacados con autoplay (embla) — arranca la home. */
-export function HeroCarousel({ mainBranch }: { mainBranch: BranchType }) {
+export function HeroCarousel({ mainBranch, whatsappDefaultMessage }: { mainBranch: MainBranchType, whatsappDefaultMessage: string }) {
   const dict = useDictionary()
   // Lazy init: el plugin se instancia una sola vez, no en cada render.
   const [autoplay] = useState(() => Autoplay({ delay: 5000, stopOnInteraction: false }));
@@ -51,13 +51,17 @@ export function HeroCarousel({ mainBranch }: { mainBranch: BranchType }) {
                     {slide.text}
                   </p>
                   <Button asChild variant="secondary" className="w-fit font-bold">
-                    <a
-                      href={buildWhatsAppUrl(`${mainBranch.phone}`, `¡Hola! Quiero consultar por ${slide.eyebrow}.`)}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {slide.cta}
-                    </a>
+                    {slide.ctaHref === "WHATSAPP" ? (
+                      <a
+                        href={buildWhatsAppUrl(mainBranch.phone, whatsappDefaultMessage)}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {slide.cta}
+                      </a>
+                    ) : (
+                      <a href={slide.ctaHref}>{slide.cta}</a>
+                    )}
                   </Button>
                 </div>
               </div>

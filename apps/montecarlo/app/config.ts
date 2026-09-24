@@ -1,6 +1,18 @@
-import type { SiteConfigInput } from "@repo/catalog-core/types/siteConfig.types";
+import type { MainBranchType, SiteConfigType } from "@repo/catalog-core/types/siteConfig.types";
 
-export const siteConfig: SiteConfigInput = {
+const mainBranch: MainBranchType = {
+  id: "35",
+  name: "Sucursal Kilómetro 35",
+  tile: "Kilómetro 35",
+  address: "Av. Río de la Plata 8005, Virrey del Pino, Buenos Aires",
+  addressHref: "https://maps.app.goo.gl/zE5eYrunGGoV9qXh8",
+  phoneDisplay: "+54 9 11 2745-4711",
+  phone: "+5491127454711",
+  image: "/sucursal-35-1.png",
+  imageAlt: "Frente del salón de ventas de Montecarlo Hogar en el Kilómetro 35",
+}
+
+export const siteConfig: SiteConfigType = {
   name: "Montecarlo Hogar",
   description: "Mayorista y minorista de electrodomésticos, muebles, colchones, artículos de ferretería, bazar y más!",
 
@@ -19,20 +31,13 @@ export const siteConfig: SiteConfigInput = {
     facebookHref: "https://www.facebook.com/MontecarloHogar",
   },
 
+  mainBranch: mainBranch,
   branches: [
-    {
-      id: "35",
-      name: "Sucursal Kilómetro 35",
-      address: "Av. Río de la Plata 8005, Virrey del Pino, Buenos Aires",
-      addressHref: "https://maps.app.goo.gl/zE5eYrunGGoV9qXh8",
-      phoneDisplay: "+54 9 11 2745-4711",
-      phone: "+5491127454711",
-      image: "/sucursal-35-1.png",
-      imageAlt: "Frente del salón de ventas de Montecarlo Hogar en el Kilómetro 35",
-    },
+    mainBranch,
     {
       id: "38",
       name: "Sucursal Kilómetro 38",
+      tile: "Kilómetro 38",
       address: "Hugo Wast 814, Virrey del Pino, Buenos Aires",
       addressHref: "https://maps.app.goo.gl/vrc6DnLs3FMLi97R7",
       phoneDisplay: "+54 9 11 6418-0648",
@@ -43,6 +48,7 @@ export const siteConfig: SiteConfigInput = {
     {
       id: "44",
       name: "Sucursal Kilómetro 44",
+      tile: "Kilómetro 44",
       address: "Av. Brig. Gral. Juan Manuel de Rosas 27349, Virrey del Pino, Buenos Aires",
       addressHref: "https://maps.app.goo.gl/pkzW6d2RA8394wUg7",
       phoneDisplay: "+54 9 11 3440-8806",

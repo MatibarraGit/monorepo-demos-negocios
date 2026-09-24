@@ -41,7 +41,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
       <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} contact={siteConfig.contact} mainBranch={siteConfig.mainBranch} siteName={siteConfig.name} navLinks={siteConfig.navLinks} />
 
       <main className="flex-1">
-        <HeroCarousel mainBranch={siteConfig.mainBranch} />
+        <HeroCarousel mainBranch={siteConfig.mainBranch} whatsappDefaultMessage={siteConfig.whatsappDefaultMessage} />
 
         <section id="catalogo" className="content-wrapper mt-16 scroll-mt-32">
           <div className="mb-6">
@@ -62,7 +62,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
             />
             <p className="text-muted-foreground shrink-0 text-sm" aria-live="polite">
               {filteredProducts.length}{" "}
-              {filteredProducts.length === 1 ? "product encontrado" : "products encontrados"}
+              {filteredProducts.length === 1 ? "producto encontrado" : "productos encontrados"}
             </p>
           </div>
 
@@ -79,7 +79,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
       {siteConfig.branches !== undefined && siteConfig.branches.length > 1 ? (
         <WhatsAppFabDrowpdown branches={siteConfig.branches} />
       ) : (
-        <WhatsAppFab mainBranch={siteConfig.mainBranch} />
+        <WhatsAppFab mainBranch={siteConfig.mainBranch} whatsappDefaultMessage={siteConfig.whatsappDefaultMessage} />
       )}
     </>
   );

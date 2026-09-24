@@ -59,8 +59,8 @@ export function AboutSection() {
         </div>
 
         <Image
-          src="/sucursal-35-2.png"
-          alt="Equipo de Montecarlo Hogar atendiendo en el salón de ventas"
+          src={dict.AboutSection.image}
+          alt={dict.AboutSection.imageAlt}
           width={1600}
           height={1200}
           sizes="(max-width: 1024px) 100vw, 620px"

@@ -6,28 +6,33 @@
         "eyebrow": "Línea blanca",
         "title": "Renová tu hogar en cuotas",
         "text": "Heladeras, juegos de comedor y cocinas de las mejores marcas, con entrega en el día.",
-        "cta": "Consultar financiación"
+        "cta": "Consultar financiación",
+        "ctaHref": "WHATSAPP"
       },
       {
         "image": "/hero-regalos-dia-del-niño-3.png",
         "eyebrow": "Día del niño",
         "title": "Regalos ideales para los más peques",
         "text": "Bicicletas, muñecas, pistas de autos, bloques de encastre y más variedad en nuestras sucursales!",
-        "cta": "Conseguí tu regalo"
+        "cta": "Conseguí tu regalo",
+        "ctaHref": "WHATSAPP"
       },
       {
         "image": "/sucursal-35-4.png",
         "eyebrow": "Lavarropas",
         "title": "Lavarropas de primera marca",
         "text": "Philco, Telefunken, Kanji, Columbia, Midea, Whirpool, y muchas más!",
-        "cta": "Pedir asesoramiento"
+        "cta": "Pedir asesoramiento",
+        "ctaHref": "WHATSAPP"
       }
     ]
   },
   "AboutSection": {
     "title": "MONTECARLO HOGAR | Mayorista y Minorista de electrodomésticos",
     "p1": "Somos una empresa en la que miles de familias encuentran todo para su casa: electrodomésticos, muebles, colchones, rodados, artículos de ferretería, bazar, línea blanca, climatización, y más!",
-    "p2": "Trabajamos con marcas líderes, precios claros y financiación propia. Elegís online y coordinamos la entrega por WhatsApp en minutos."
+    "p2": "Trabajamos con marcas líderes, precios claros y financiación propia. Elegís online y coordinamos la entrega por WhatsApp en minutos.",
+    "image": "/sucursal-35-2.png",
+    "imageAlt": "Equipo de Montecarlo Hogar atendiendo en el salón de ventas"
   },
   "ContactSection": {
     "p1": "Tenemos 3 sucursales para atenderte. Escribinos por WhatsApp a la que te quede más cerca y coordinamos precios, stock y entrega."

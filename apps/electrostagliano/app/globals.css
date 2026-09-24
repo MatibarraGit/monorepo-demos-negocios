@@ -7,76 +7,76 @@
 .theme-light {
   color-scheme: light;
 
-  --background: oklch(0.985 0.004 250);
-  --foreground: oklch(0.22 0.03 260);
+  --background: oklch(0.985 0.004 258);
+  --foreground: oklch(0.22 0.04 262);
 
   /* Superficie elevada (cards, popovers): más clara que el fondo general */
   --surface: oklch(1 0 0);
 
-  /* Azul marino del logo — chrome del sitio (header, footer) y CTA principal */
-  --primary: oklch(0.32 0.096 260);
-  --primary-foreground: oklch(0.985 0.005 250);
-  --primary-dark: oklch(0.25 0.085 262);
-  --primary-light: oklch(0.42 0.1 258);
+  /* Azul intenso del banner/logo — chrome del sitio (header, footer) y CTA principal */
+  --primary: oklch(0.34 0.16 264);
+  --primary-foreground: oklch(0.99 0.005 250);
+  --primary-dark: oklch(0.2 0.13 264);
+  --primary-light: oklch(0.46 0.17 263);
 
-  /* Rojo del listón del logo — color de énfasis (badges, CTAs sobre el azul) */
-  --secondary: oklch(0.53 0.214 27.5);
-  --secondary-foreground: oklch(0.99 0.005 90);
+  /* Azul brillante del degradé diagonal del banner — color de énfasis (badges, CTAs) */
+  --secondary: oklch(0.56 0.2 258);
+  --secondary-foreground: oklch(0.99 0.005 250);
 
-  /* Amarillo tenue del logo — reservado para destacados/ofertas */
-  --highlight: oklch(0.85 0.15 88);
-  --highlight-foreground: oklch(0.28 0.06 70);
+  /* Blanco/celeste del contorno del logo — reservado para destacados/ofertas sobre fondo oscuro */
+  --highlight: oklch(0.93 0.03 238);
+  --highlight-foreground: oklch(0.2 0.05 262);
 
-  --muted: oklch(0.52 0.025 258); /* texto secundario */
-  --muted-background: oklch(0.955 0.008 255); /* superficies secundarias (chips, skeletons) */
+  --muted: oklch(0.52 0.03 262); /* texto secundario */
+  --muted-background: oklch(0.955 0.01 258); /* superficies secundarias (chips, skeletons) */
 
-  --border: oklch(0.905 0.012 255);
-  --input: oklch(0.9 0.012 255);
-  --ring: oklch(0.42 0.1 258);
+  --border: oklch(0.9 0.014 258);
+  --input: oklch(0.895 0.014 258);
+  --ring: oklch(0.46 0.17 263);
 
   --success: oklch(0.56 0.14 152);
   --success-background: oklch(0.95 0.03 152);
 
-  --danger: oklch(0.53 0.214 27.5);
-  --danger-background: oklch(0.95 0.035 27.5);
+  --danger: oklch(0.56 0.22 28);
+  --danger-background: oklch(0.95 0.035 28);
 
   --shadow-elevated-value:
-    0 1px 2px oklch(0.24 0.09 264 / 0.06), 0 8px 24px oklch(0.24 0.09 264 / 0.08);
-  --shadow-header-value: 0 2px 16px oklch(0.18 0.08 264 / 0.35);
+    0 1px 2px oklch(0.24 0.1 264 / 0.07), 0 8px 24px oklch(0.24 0.1 264 / 0.09);
+  --shadow-header-value: 0 2px 16px oklch(0.2 0.14 264 / 0.35);
 }
 
 [data-theme="dark"],
 .theme-dark {
   color-scheme: dark;
 
-  --background: oklch(0.18 0.035 262);
+  --background: oklch(0.1 0.04 264);
   --foreground: oklch(0.97 0.005 250);
 
-  --surface: oklch(0.24 0.045 262);
+  --surface: oklch(0.17 0.04 264);
 
-  --primary: oklch(0.28 0.09 261);
-  --primary-foreground: oklch(0.985 0.005 250);
-  --primary-dark: oklch(0.22 0.075 262);
-  --primary-light: oklch(0.4 0.1 258);
+  --primary: oklch(0.24 0.09 264);
+  --primary-foreground: oklch(0.99 0.005 250);
+  --primary-dark: oklch(0.16 0.07 264);
+  --primary-light: oklch(0.38 0.13 263);
 
-  --secondary: oklch(0.6 0.2 27.5);
-  --secondary-foreground: oklch(0.99 0.005 90);
+  --secondary: oklch(0.62 0.2 258);
+  --secondary-foreground: oklch(0.1 0.03 264);
 
-  --highlight: oklch(0.85 0.15 88);
-  --highlight-foreground: oklch(0.24 0.06 70);
+  --highlight: oklch(0.9 0.035 238);
+  --highlight-foreground: oklch(0.16 0.04 262);
 
-  --muted: oklch(0.72 0.025 256);
-  --muted-background: oklch(0.28 0.035 260);
+  --muted: oklch(0.72 0.025 262);
+  --muted-background: oklch(0.21 0.04 264);
 
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.6 0.06 258);
+  --ring: oklch(0.6 0.13 263);
 
   --success: oklch(0.72 0.15 152);
   --success-background: oklch(0.3 0.06 152);
 
-  --danger: oklch(0.68 0.185 27.5);
-  --danger-background: oklch(0.3 0.08 27.5);
+  --danger: oklch(0.6 0.22 28);
+  --danger-background: oklch(0.3 0.08 28);
 
   --shadow-elevated-value: 0 1px 2px oklch(0 0 0 / 0.3), 0 8px 24px oklch(0 0 0 / 0.35);
   --shadow-header-value: 0 2px 16px oklch(0 0 0 / 0.45);

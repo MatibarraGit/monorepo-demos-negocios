@@ -6,28 +6,25 @@
         "eyebrow": "",
         "title": "",
         "text": "",
-        "cta": ""
+        "cta": "",
+        "ctaHref": ""
       },
       {
         "image": "",
         "eyebrow": "",
         "title": "",
         "text": "",
-        "cta": ""
-      },
-      {
-        "image": "",
-        "eyebrow": "",
-        "title": "",
-        "text": "",
-        "cta": ""
+        "cta": "",
+        "ctaHref": ""
       }
     ]
   },
   "AboutSection": {
     "title": "",
     "p1": "",
-    "p2": ""
+    "p2": "",
+    "image": "",
+    "imageAlt": ""
   },
   "ContactSection": {
     "p1": ""

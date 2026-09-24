@@ -2,34 +2,31 @@
   "HeroCarousel": {
     "slides": [
       {
-        "image": "",
-        "eyebrow": "",
-        "title": "",
-        "text": "",
-        "cta": ""
+        "image": "/pedinos-el-catalogo.png",
+        "eyebrow": "Pedí por la web",
+        "title": "Inauguramos el catálogo online",
+        "text": "¡Revisá las últimas novedades y hacé tu pedido agilmente!",
+        "cta": "Explorar Catálogo",
+        "ctaHref": "#catalogo"
       },
       {
-        "image": "",
-        "eyebrow": "",
-        "title": "",
-        "text": "",
-        "cta": ""
-      },
-      {
-        "image": "",
-        "eyebrow": "",
-        "title": "",
-        "text": "",
-        "cta": ""
+        "image": "/interior-central-moreno.jpg",
+        "eyebrow": "Variedad ilimitada",
+        "title": "Somos distribuidores mayoristas",
+        "text": "Accedé a los mejores precios y conseguí ganancias reales",
+        "cta": "Pedir asesoramiento",
+        "ctaHref": "WHATSAPP"
       }
     ]
   },
   "AboutSection": {
-    "title": "",
-    "p1": "",
-    "p2": ""
+    "title": "ELEKTRO STAGLIANO | Mayorista de electrodomésticos",
+    "p1": "Somos una empresa en la que miles de familias encuentran todo para su casa: electrodomésticos, rodados, artículos de ferretería, bazar, línea blanca, climatización, y más!",
+    "p2": "Trabajamos con marcas líderes y precios claros. Elegís online y coordinamos la entrega por WhatsApp en minutos.",
+    "image": "/interior-central-moreno.jpg",
+    "imageAlt": "Interior de la central en Moreno"
   },
   "ContactSection": {
-    "p1": ""
+    "p1": "Tenemos 3 sucursales para atenderte. Escribinos por WhatsApp, coordinamos precios y stock, y retirás por la que te quede más cerca."
   }
 }

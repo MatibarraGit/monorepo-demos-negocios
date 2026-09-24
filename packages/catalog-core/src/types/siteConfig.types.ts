@@ -1,8 +1,9 @@
 export type BranchType = {
   id: string;
   name: string;
-  phone: string;
-  phoneDisplay: string;
+  tile: string;
+  phone?: string;
+  phoneDisplay?: string;
   address: string;
   addressHref: string;
   image: string;
@@ -19,6 +20,18 @@ export type HoursType = {
   hours: string
 }
 
+export type MainBranchType = {
+  id: string;
+  name: string;
+  tile: string;
+  phone: string;
+  phoneDisplay: string;
+  address: string;
+  addressHref: string;
+  image: string;
+  imageAlt: string;
+};
+
 export type SiteConfigType = {
   name: string;
   description: string;
@@ -29,11 +42,8 @@ export type SiteConfigType = {
     facebook: string;
     facebookHref: string;
   };
-  mainBranch: BranchType;
+  mainBranch: MainBranchType;
   branches: BranchType[];
   whatsappDefaultMessage: string;
   navLinks: { href: string; label: string }[];
 };
-
-// Config "crudo", tal como lo define cada sitio, sin mainBranch derivado
-export type SiteConfigInput = Omit<SiteConfigType, "mainBranch">;

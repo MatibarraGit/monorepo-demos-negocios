@@ -11,6 +11,7 @@ export interface HeroCarousel {
     title: string;
     text: string;
     cta: string; 
+    ctaHref: string;
   }[]
 }
 
@@ -18,6 +19,8 @@ export interface AboutSection {
   title: string;
   p1: string;
   p2: string;
+  image: string;
+  imageAlt: string;
 }
 
 export interface ContactSection {
