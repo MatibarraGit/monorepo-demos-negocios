@@ -1,962 +1,858 @@
 [
   {
-    "product_id": 2700,
-    "product_name": "Secador de Pelo Gama Diamond Ceramic Std",
-    "sell_price": 61500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 6,
-    "category_name": "Cuidado personal",
+    "product_id": 708,
+    "product_name": "Lavarropas Inverter Silver Kanjihome 8 Kilos",
+    "sell_price": 456500,
+    "product_description": "* Capacidad de 8 Kilos\n* Display led: 11 programas \n* Bloqueo para niños\n* Volumen del tambor: 52lts \n* Presión de agua: 0.02-0.8mpa \n* Peso neto/bruto: 52/55kg",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1786028986/Secador%20de%20Pelo%20Gama%20Diamond%20Ceramic%20Std.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782158257/Products/Lavarropas%20Inverter%20Silver%20Kanjihome%208%20Kilos-1782158257178-gg7kr.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782158275/Products/Lavarropas%20Inverter%20Silver%20Kanjihome%208%20Kilos-1782158275489-dcvf2.jpg"
     ]
   },
   {
-    "product_id": 2695,
-    "product_name": "Batería de Cocina Tramontina 3 Piezas",
-    "sell_price": 79900,
-    "?column?": false,
-    "product_description": "",
+    "product_id": 935,
+    "product_name": "Secarropas a Calor Axel 4.5 Kg",
+    "sell_price": 94900,
+    "product_description": "* Bajo consumo, con tres programas de secado. \r\n* Práctico para espacios pequeños.",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1770654023/Secarropas%20a%20Calor%20Axel%204.5%20Kl.jpg"
+    ]
+  },
+  {
+    "product_id": 1822,
+    "product_name": "Mesa Plegable para Jardín 180cm",
+    "sell_price": 63500,
+    "product_description": "* Capacidad para 8 personas\n* Estructura metálica y plástico reforzado\n* Fácil de limpiar plegar y transportar\n* Ideal para uso exterior, picnics o campings",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1776953488/Mesa%20Plegable%20180%20Mts.jpg"
+    ]
+  },
+  {
+    "product_id": 2005,
+    "product_name": "Delhi Bolsa para Lavar Zapatillas",
+    "sell_price": 8000,
+    "product_description": "* Ideal para lavar zapatillas en lavarropas\n* Protege el calzado y el tambor\n* Material resistente\n* Cierre seguro",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1778805697/Delhi%20Bolsa%20para%20Lavar%20Zapatillas.jpg"
+    ]
+  },
+  {
+    "product_id": 2006,
+    "product_name": "Delhi Bacha Cocina Doble 78x43x20 Cm",
+    "sell_price": 172000,
+    "product_description": "* Doble bacha para mayor comodidad\n* Grifería cromada con pico flexible extensible\n* Dosificador integrado para jabón o detergente\n* Acero inoxidable 0.6 mm\n* Instalación sobre mesada\n* Dimensiones de 78 cm de ancho por 43 cm de largo por 20 cm de profundidad\n* Construcción robusta resistente y duradera",
     "category_id": 5,
-    "category_name": "Vajilla, ollas y utensilios de cocina",
+    "category_name": "Bazar y cocina",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785524813/Bater%C3%ADa%20de%20Cocina%20Tramontina%203%20Piezas.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1778805697/Delhi%20Bacha%20Cocina%20Doble%2078x43x20%20Cm.jpg"
     ]
   },
   {
-    "product_id": 2694,
-    "product_name": "Lámpara Decorativa Infantil",
-    "sell_price": 12900,
-    "?column?": false,
-    "product_description": "* Disponible en formas de hamburguesa helado o papas fritas",
-    "category_id": 7,
-    "category_name": "Muebles y organización del hogar",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785524812/L%C3%A1mpara%20Decorativa%20Infantil.jpg"
-    ]
-  },
-  {
-    "product_id": 2693,
-    "product_name": "Horno Freidora de Aire Dinax 17 Litros 1700w Beige",
-    "sell_price": 134500,
-    "?column?": false,
-    "product_description": "* Incluye funciones de horno y freidora de aire",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785524812/Horno%20Freidora%20de%20Aire%20Dinax%2017%20Litros%201700w%20Beige.jpg"
-    ]
-  },
-  {
-    "product_id": 2692,
-    "product_name": "Silla Gamer Netmak con Apoya Pies",
-    "sell_price": 151500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785524811/Silla%20Gamer%20Netmak%20con%20Apoya%20Pies.jpg"
-    ]
-  },
-  {
-    "product_id": 2691,
-    "product_name": "Auricular Vincha Inalámbrico Infantil",
-    "sell_price": 25500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785524811/Auricular%20Vincha%20Inal%C3%A1mbrico%20Infantil.jpg"
-    ]
-  },
-  {
-    "product_id": 2690,
-    "product_name": "Celular iPhone 13 128gb 87% Batería",
-    "sell_price": 705000,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 1,
-    "category_name": "Celulares, tablets y smartwatches",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785523676/Celular%20Iphone%2013%20128gb.jpg"
-    ]
-  },
-  {
-    "product_id": 2688,
-    "product_name": "Celular Motorola G75 256 Gb 8 Ram",
-    "sell_price": 513900,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 1,
-    "category_name": "Celulares, tablets y smartwatches",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785523635/Celular%20Motorola%20G75%20256%20Gb%208%20Ram.jpg"
-    ]
-  },
-  {
-    "product_id": 2687,
-    "product_name": "Celular Motorola G86 Power 256gb 8gb Ram",
-    "sell_price": 583500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 1,
-    "category_name": "Celulares, tablets y smartwatches",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785523635/Celular%20Motorola%20G86%20Power%20256gb%208gb%20Ram.jpg"
-    ]
-  },
-  {
-    "product_id": 2686,
-    "product_name": "Perchero Multifunción con Ruedas",
-    "sell_price": 20500,
-    "?column?": false,
-    "product_description": "* Incluye ruedas para facilitar el traslado\n* Diseño versátil para organizar diversas prendas",
-    "category_id": 7,
-    "category_name": "Muebles y organización del hogar",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1785331298/Perchero%20Multifunci%C3%B3n%20con%20Ruedas.jpg"
-    ]
-  },
-  {
-    "product_id": 2673,
-    "product_name": "Lavarropas Automático Midea 6kg Blanco",
-    "sell_price": 589999,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784238261/Lavarropas%20Autom%C3%A1tico%20Midea%206kg%20Blanco.jpg"
-    ]
-  },
-  {
-    "product_id": 2672,
-    "product_name": "Lavarropas Telefunken 6kg Blanco",
-    "sell_price": 509900,
-    "?column?": false,
-    "product_description": "* Tecnología inverter para mayor eficiencia",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784238261/Lavarropas%20Telefunken%206kg%20Blanco.jpg"
-    ]
-  },
-  {
-    "product_id": 2671,
-    "product_name": "Lavarropas Automático Philco 6kg Blanco",
-    "sell_price": 587500,
-    "?column?": false,
-    "product_description": "* Tecnología inverter\n* Carga frontal\n* Velocidad de centrifugado de 1000 rpm",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784238260/Lavarropas%20Autom%C3%A1tico%20Philco%206kg%20Blanco.jpg"
-    ]
-  },
-  {
-    "product_id": 2670,
-    "product_name": "Lavarropas Automático Philco 11kg",
-    "sell_price": 849900,
-    "?column?": false,
-    "product_description": "* Tecnología inverter para mayor eficiencia energética\n* Diseño en color gris",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784238260/Lavarropas%20Autom%C3%A1tico%20Philco%2011kg.jpg"
-    ]
-  },
-  {
-    "product_id": 2669,
-    "product_name": "Bicicleta Gravity Talle M/L Rodado 29 Azul Y Gris",
-    "sell_price": 244900,
-    "?column?": false,
-    "product_description": "* Cuenta con pata de cambios shimano",
+    "product_id": 2008,
+    "product_name": "Mopa Delhi con Spray Rociador",
+    "sell_price": 9500,
+    "product_description": "* Tiene un tanque integrado de 450ml\n* Incluye almohadillas lavables",
     "category_id": 11,
-    "category_name": "Bicicletas",
+    "category_name": "Hogar y jardín",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784207201/Bicicleta%20Gravity%20Talle%20M/l%20Rodado%2029%20Azul%20Y%20Gris.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1778805698/Mopa%20Spray%20Delhi.jpg"
     ]
   },
   {
-    "product_id": 2668,
-    "product_name": "Bicicleta Gravity Dabomb Talle M/L R29 Blanco Y Rosa",
-    "sell_price": 284500,
-    "?column?": false,
-    "product_description": "",
+    "product_id": 2009,
+    "product_name": "Tender con Alas Reforzado Delhi Dl400",
+    "sell_price": 27500,
+    "product_description": "* Es extensible\n* Soporta 20kg de peso",
     "category_id": 11,
-    "category_name": "Bicicletas",
+    "category_name": "Hogar y jardín",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784207201/Bicicleta%20Gravity%20Dabomb%20Talle%20M/l%20R29%20Blanco%20Y%20Rosa.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782739662/Products/Tender%20con%20Alas%20Reforzado%20Delhi%20Dl400-1782739661954-3y2ma.jpg"
     ]
   },
   {
-    "product_id": 2667,
-    "product_name": "Bicicleta Mtb Gravity Dabomb Talle M/L Violeta Y Verde",
-    "sell_price": 284500,
-    "?column?": false,
-    "product_description": "* Cuadro de mountain bike\n* Rodado para senderos de montaña",
-    "category_id": 11,
-    "category_name": "Bicicletas",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784207200/Bicicleta%20Mtb%20Gravity%20Dabomb%20Talle%20M/l%20Violeta%20Y%20Verde.jpg"
-    ]
-  },
-  {
-    "product_id": 2666,
-    "product_name": "Bicicleta Gravity Talle M/L Rodado 29 Blanco Y Azul",
-    "sell_price": 244900,
-    "?column?": false,
-    "product_description": "* Con pata de apoyo\n* Transmisión shimano",
-    "category_id": 11,
-    "category_name": "Bicicletas",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784207199/Bicicleta%20Gravity%20Talle%20M/l%20Rodado%2029%20Color%20Blanco%20Y%20Azul.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1784207376/Products/Bicicleta%20Gravity%20Talle%20M/l%20Rodado%2029%20Color%20Blanco%20Y%20Azul-1784207376060-pb29n.jpg"
-    ]
-  },
-  {
-    "product_id": 2665,
-    "product_name": "Bicicleta Gravity Talle M/L Rodado 29 Negro Y Verde",
-    "sell_price": 244900,
-    "?column?": false,
-    "product_description": "* Pata de cambio shimano",
-    "category_id": 11,
-    "category_name": "Bicicletas",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1784207199/Bicicleta%20Gravity%20Talle%20M%20L%20Rodado%2029%20Color%20Negro%20Y%20Verde.jpg"
-    ]
-  },
-  {
-    "product_id": 2638,
-    "product_name": "Celular Xiaomi Redmi A7 Pro 128gb 4gb Ram",
-    "sell_price": 266500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 1,
-    "category_name": "Celulares, tablets y smartwatches",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783954833/Celular%20Xiaomi%20Redmi%20A7%20Pro%20128gb%204gb%20Ram.jpg"
-    ]
-  },
-  {
-    "product_id": 2634,
-    "product_name": "Cocina Escorial Master Style Negra Multigas",
-    "sell_price": 629999,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783772048/Cocina%20Escorial%20Master%20Style%20Negra.jpg"
-    ]
-  },
-  {
-    "product_id": 2632,
-    "product_name": "Cocina Escorial Palace Cristal Gas Envasado",
-    "sell_price": 461500,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783772047/Cocina%20Escorial%20Palace%20Cristal.jpg"
-    ]
-  },
-  {
-    "product_id": 2631,
-    "product_name": "Cocina Multigas 50cm Siam Essential",
-    "sell_price": 402900,
-    "?column?": false,
-    "product_description": "* Cuenta con tecnología multigas\n* Su diseño es de acero inoxidable color plata",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783772047/Cocina%20Multigas%2050cm%20Siam%20Essential.jpg"
-    ]
-  },
-  {
-    "product_id": 2619,
-    "product_name": "Reloj Smartwatch S7 Ultra Hd Monitoreo De Salud Integral",
-    "sell_price": 26500,
-    "?column?": false,
-    "product_description": "* Resistente al agua.\n* Conectividad por Bluetooth.\n* Material de la malla: Silicona\n* Versión del smartwatch: Sport",
-    "category_id": 1,
-    "category_name": "Celulares, tablets y smartwatches",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783693052/Products/Reloj%20Smartwatch%20S7%20Ultra%20Hd%20Monitoreo%20De%20Salud%20Integral-1783693052256-g9vw2.webp"
-    ]
-  },
-  {
-    "product_id": 2593,
-    "product_name": "Juego de Cubiertos 12 Piezas Tramontina",
-    "sell_price": 16900,
-    "?column?": false,
-    "product_description": "",
+    "product_id": 2010,
+    "product_name": "Bacha Inteligente Delhi 7545",
+    "sell_price": 178000,
+    "product_description": "* Fabricada en acero inoxidable\n* Cuenta con diseño inteligente\n* Dimensiones de 780 x 480 x 255 mm",
     "category_id": 5,
-    "category_name": "Vajilla, ollas y utensilios de cocina",
+    "category_name": "Bazar y cocina",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783461996/Juego%20de%20Cubiertos%2012%20Piezas%20Tramontina.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1778805699/Bacha%20Inteligente%20Delhi%207545.jpg"
     ]
   },
   {
-    "product_id": 2592,
-    "product_name": "Microondas Kanjihome Digital Negro",
-    "sell_price": 178500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783461995/Microondas%20Kanjihome%20Digital%20Negro.jpg"
-    ]
-  },
-  {
-    "product_id": 2591,
-    "product_name": "Multiprocesadora Negra Kanji",
-    "sell_price": 76500,
-    "?column?": false,
-    "product_description": "* Capacidad del Vaso Medidor: 1.2 litros\n* Potencia: 1000 watts\n* Funciones: Batir, Picar, Rallar, corte juliana\n* Posee traba de seguridad y base antideslizante para evitar posibles accidentes.\n* Hasta 2 velocidades.\n* Pulsador que permite máximo control.",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783519340/Products/Multiprocesadora%20Negra%20Kanji-1783519340612-2w0m3.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1783519341/Products/Multiprocesadora%20Negra%20Kanji-1783519341191-rzdmh.jpg"
-    ]
-  },
-  {
-    "product_id": 2590,
-    "product_name": "Juego de Cubiertos Tramontina 25 Piezas",
-    "sell_price": 39500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 5,
-    "category_name": "Vajilla, ollas y utensilios de cocina",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783461995/Juego%20de%20Cubiertos%20Tramontina%2026%20Piezas.jpg"
-    ]
-  },
-  {
-    "product_id": 2588,
-    "product_name": "Procesadora 5 en 1 Liliana Simplix Am700",
-    "sell_price": 96500,
-    "?column?": false,
-    "product_description": "* Potencia de 700w\n* 1.2 litros de capacidad\n* Ralla, rebana, pica, amasa y emulsiona",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783519656/Products/Procesadora%205%20en%201%20Liliana%20Simplix%20Am700-1783519656830-kp3b6.png,https://res.cloudinary.com/db8b2c9gb/image/upload/v1783519657/Products/Procesadora%205%20en%201%20Liliana%20Simplix%20Am700-1783519657284-e6i41.jpg"
-    ]
-  },
-  {
-    "product_id": 2569,
-    "product_name": "Planchita Ga.ma Bella Delicate 120x23mm Bivolt",
-    "sell_price": 37500,
-    "?column?": false,
-    "product_description": "* Tecnología ceramic shine ion para reducir el frizz y dar brillo\n* Diseño ultra slim para diversos peinados\n* Cuenta con cable giratorio y traba de cierre\n* Posee patín flotante y placas oscilantes que evitan tirones",
-    "category_id": 6,
-    "category_name": "Cuidado personal",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783176953/Planchita%20Ga.ma%20Bella%20Delicate%20120x23mm%20Bivolt.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1783177203/Products/Planchita%20Ga.ma%20Bella%20Delicate%20120x23mm%20Bivolt-1783177203330-v1w3s.jpg"
-    ]
-  },
-  {
-    "product_id": 2560,
-    "product_name": "Secador de Pelo GA.MA Breeze BK",
-    "sell_price": 46500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 6,
-    "category_name": "Cuidado personal",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783171636/Secador%20de%20Pelo%20Ga.ma%20Breeze%20Bk.jpg"
-    ]
-  },
-  {
-    "product_id": 2528,
-    "product_name": "Parlante Inalámbrico 8 Pulgadas Dinax",
-    "sell_price": 83500,
-    "?column?": false,
-    "product_description": "* Luces LED rítmicas\n* Batería recargable\n* Radio FM\n* USB / TF / Aux / Mic",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782824893/Products/Parlante%20Inal%C3%A1mbrico%208%20Pulgadas%20Dinax-1782824893872-qafme.webp"
-    ]
-  },
-  {
-    "product_id": 2527,
-    "product_name": "Parlante Torre Kanji Temuki Harrison SP-KJA890H",
-    "sell_price": 350000,
-    "?column?": false,
-    "product_description": "* Con conectividad bluetooth.\n* Tiene luces led.\n* Consola de DJ integrada.\n* Función de karaoke incorporada.\n* Distintos efectos de voz.\n* Batería recargable.\n* Potencia de 7200W.\n* Viene con un micrófono de accesorio.\n* Dimensiones: 34cm de ancho, 99cm de alto y 28cm de profundidad.",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782824494/Parlante%20Temuki.jpg"
-    ]
-  },
-  {
-    "product_id": 2526,
-    "product_name": "Parlante Portátil Greatnice 15\" con 2 Micrófonos",
-    "sell_price": 72500,
-    "?column?": false,
-    "product_description": "* Incluye 2 micrófonos\n* Posee luces incorporadas",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782824773/Products/Parlante%20Port%C3%A1til%20Greatnice%2015%22%20con%202%20Micr%C3%B3fonos-1782824773448-0516u.webp"
-    ]
-  },
-  {
-    "product_id": 2525,
-    "product_name": "Parlante Inalámbrico Dinax 2x10 Pulgadas",
-    "sell_price": 271500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782824493/Parlante%20Inal%C3%A1mbrico%20Dinax%202x10%20Pulgadas.jpg"
-    ]
-  },
-  {
-    "product_id": 2515,
-    "product_name": "Mesa Metálica Rectangular Titanium 140x80cm",
-    "sell_price": 103500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 7,
-    "category_name": "Muebles y organización del hogar",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782740859/Mesa%20Premium%20140x080.jpg"
-    ]
-  },
-  {
-    "product_id": 2510,
-    "product_name": "Tender con Alas Económico 84x45x125cm",
-    "sell_price": 25500,
-    "?column?": false,
-    "product_description": "* Diseño con alas plegables\n* Estructura práctica para el hogar",
-    "category_id": 7,
-    "category_name": "Muebles y organización del hogar",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782740132/Tender%20con%20Alas%2084x45x125.jpg"
-    ]
-  },
-  {
-    "product_id": 2480,
-    "product_name": "Maquina de Donas Profesional 700w Dinax",
-    "sell_price": 34500,
-    "?column?": false,
-    "product_description": "* Es antiadherente.\n* Posee control de temperatura.\n* Con indicador luminoso.",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782307745/Products/Maquina%20de%20Donas%20Profesional%20700w%20Dinax-1782307745776-o0js0.webp,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782307746/Products/Maquina%20de%20Donas%20Profesional%20700w%20Dinax-1782307746513-fzciz.jpg"
-    ]
-  },
-  {
-    "product_id": 2499,
-    "product_name": "Smart Tv 55\" Kanji QLED con Whale TV",
-    "sell_price": 662500,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782320684/Smart%20Tv%2055%20Kanji.jpg"
-    ]
-  },
-  {
-    "product_id": 2495,
-    "product_name": "Smart Tv 43\" Philips Blanco",
-    "sell_price": 417500,
-    "?column?": false,
-    "product_description": "* Incluye sistema operativo titan os",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782320683/Smart%20Tv%2043%20Philips%20Blanco.jpg"
-    ]
-  },
-  {
-    "product_id": 2492,
-    "product_name": "Smart Tv 43\" Crown Mustang ST0052W",
-    "sell_price": 372500,
-    "?column?": false,
-    "product_description": "* Pocas unidades disponibles!",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782320682/Tv%20Smart%2043%20Crown%20Mustang%20Cm43st0052w.jpg"
-    ]
-  },
-  {
-    "product_id": 2469,
-    "product_name": "Frazada Menucha's 2 Plazas Y Media Súper Pesada 5Kg",
-    "sell_price": 67500,
-    "?column?": false,
-    "product_description": "* 220x240cm\n* Reversible: igual de ambos lados\n* Presentada en bolso con manija, ideal para regalos",
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782297448/Frazada%202%20Plazas%20Y%20Media.jpg"
-    ]
-  },
-  {
-    "product_id": 2467,
-    "product_name": "Acolchado Mantra Style Collection 1 Plaza Y Media",
-    "sell_price": 46900,
-    "?column?": false,
-    "product_description": "* Diseños disponibles",
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238723/Acolchado%20Mantra%20Style%20Collection%201%20Plaza%20Y%20Media0.jpg"
-    ]
-  },
-  {
-    "product_id": 2468,
-    "product_name": "Acolchado Mantra Style Collection 2 Plazas Y Media",
-    "sell_price": 57500,
-    "?column?": false,
-    "product_description": "* Diseños disponibles",
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238727/Acolchado%20Mantra%20Style%20Collection%201%20Plaza%20Y%20Media1.jpg"
-    ]
-  },
-  {
-    "product_id": 2466,
-    "product_name": "Acolchado Mantra Winter King Size",
-    "sell_price": 92500,
-    "?column?": false,
-    "product_description": "* Diseños disponibles",
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238768/Products/Acolchado%20Mantra%20Winter%20King%20Size-1782238768786-8ee7a.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238769/Products/Acolchado%20Mantra%20Winter%20King%20Size-1782238769474-o2a0e.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238770/Products/Acolchado%20Mantra%20Winter%20King%20Size-1782238770070-pdtiz.jpg"
-    ]
-  },
-  {
-    "product_id": 2465,
-    "product_name": "Acolchado Mantra Winter 2 Plazas Y Media",
-    "sell_price": 77500,
-    "?column?": false,
-    "product_description": "* Diseños disponibles",
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238595/Acolchado%20Mantra%20Winter%201%20Plaza%20Y%20Media1.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238764/Products/Acolchado%20Mantra%20Winter%202%20Plaza%20Y%20Media-1782238764701-hrsbc.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238765/Products/Acolchado%20Mantra%20Winter%202%20Plaza%20Y%20Media-1782238765388-6hz4a.jpg"
-    ]
-  },
-  {
-    "product_id": 2464,
-    "product_name": "Acolchado Mantra Winter 1 Plaza Y Media",
-    "sell_price": 55500,
-    "?column?": false,
-    "product_description": "* Diseños disponibles",
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238592/Acolchado%20Mantra%20Winter%201%20Plaza%20Y%20Media0.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238761/Products/Acolchado%20Mantra%20Winter%201%20Plaza%20Y%20Media-1782238760956-zqvjl.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238761/Products/Acolchado%20Mantra%20Winter%201%20Plaza%20Y%20Media-1782238761592-82ybl.jpg"
-    ]
-  },
-  {
-    "product_id": 2463,
-    "product_name": "Acolchado Mantra Harmony 2 Plazas Y Media",
-    "sell_price": 80500,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 8,
-    "category_name": "Textiles de cama y blanco",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238588/Acolchado%20Mantra%20Harmony%202%20Plazas%20Y%20Media.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782238757/Products/Acolchado%20Mantra%20Harmony%202%20Plazas%20Y%20Media-1782238757577-936r2.jpg"
-    ]
-  },
-  {
-    "product_id": 2446,
-    "product_name": "Lavarropas Automático 11kg Whirlpool Gris Ww11btazwa",
-    "sell_price": 909900,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782158893/Lavarropas%20Autom%C3%A1tico%2011kg%20Whirlpool%20Gris%20Ww11btazwa.jpg"
-    ]
-  },
-  {
-    "product_id": 2445,
-    "product_name": "Lavarropas Kanjihome Carga Superior 6.5kg",
-    "sell_price": 379500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782158892/Lavarropas%20Kanjihome%20Carga%20Superior.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395839/Products/Lavarropas%20Kanjihome%20Carga%20Superior%206.5kg-1782395839711-0jumg.webp,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395840/Products/Lavarropas%20Kanjihome%20Carga%20Superior%206.5kg-1782395840216-pqsrj.webp"
-    ]
-  },
-  {
-    "product_id": 2444,
-    "product_name": "Lavarropas Drean Semiautomático 8kg Gris Ltdr87sg",
-    "sell_price": 323500,
-    "?column?": false,
-    "product_description": "* Panel de control: Selector perilla\n* Con bomba de desagote\n* Material del tambor: Acero inoxidable",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395988/Products/Lavarropas%20Drean%20Semiautom%C3%A1tico%208kg%20Gris%20Ltdr87sg-1782395988580-215eg.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395989/Products/Lavarropas%20Drean%20Semiautom%C3%A1tico%208kg%20Gris%20Ltdr87sg-1782395989159-o9dyh.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395989/Products/Lavarropas%20Drean%20Semiautom%C3%A1tico%208kg%20Gris%20Ltdr87sg-1782395989667-1t45b.jpg"
-    ]
-  },
-  {
-    "product_id": 2443,
-    "product_name": "Lavarropas Automático Eslabon de Lujo 7kg",
-    "sell_price": 647500,
-    "?column?": false,
-    "product_description": "* 750rpm \n* Carga Superior\n* Con bomba de desagote\n* Material del tambor: Acero inoxidable",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395732/Products/Lavarropas%20Autom%C3%A1tico%20Eslabon%20de%20Lujo%207kg-1782395732532-x9x49.webp,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395733/Products/Lavarropas%20Autom%C3%A1tico%20Eslabon%20de%20Lujo%207kg-1782395733214-k81jf.webp,https://res.cloudinary.com/db8b2c9gb/image/upload/v1782395733/Products/Lavarropas%20Autom%C3%A1tico%20Eslabon%20de%20Lujo%207kg-1782395733765-qw47w.webp"
-    ]
-  },
-  {
-    "product_id": 2416,
-    "product_name": "Pava Eléctrica Matera Yelmo Pe-3909 1.7l 2200w",
-    "sell_price": 35900,
-    "?column?": false,
-    "product_description": "* Corte a 85 grados, no hierve el agua, ideal para preparar el mate o infusiones\n* Base giratoria 360 grados\n* Luz led indicadora\n* Tapa y manija frías al tacto",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781961607/Pava%20El%C3%A9ctrica%20Matera%20Yelmo%20Pe-3909%201.7l%202200w%20con%20Corte%20a%2085%20Grados.jpg"
-    ]
-  },
-  {
-    "product_id": 2413,
-    "product_name": "Hidrolavadora Lusqtoff HL-120 1200w 105 Bar",
-    "sell_price": 130000,
-    "?column?": false,
-    "product_description": "* Ideal para autos, motos, patios, veredas y más\n* Potencia: 1200 W\n* Presión de trabajo: 70 bar (1010 PSI)\n* Presión máxima: 105 bar\n* Caudal de trabajo: 5.5 L/min\n* Flujo máximo: 6.8 L/min\n* Presión de entrada de agua: hasta 4 bar\n* Temperatura del agua: 5° a 50°C\n* Voltaje: 220V ~ 50Hz\n* Peso: 5,2 kg (liviana y portátil)",
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781952052/Hidrolavadora%20Lusqtoff%201200w.jpg"
-    ]
-  },
-  {
-    "product_id": 2332,
-    "product_name": "Bicicleta Rodado 22 de Dama Fiat",
-    "sell_price": 235500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 11,
-    "category_name": "Bicicletas",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781617319/Bicicleta%20Rodado%2022%20de%20Dama%20Fiat.jpg"
-    ]
-  },
-  {
-    "product_id": 2344,
-    "product_name": "Soldadora Inverter Gamma G3475ra",
-    "sell_price": 231900,
-    "?column?": false,
-    "product_description": "* Voltaje: 220V.\n* Amperaje ajustable entre 10 A y 250 A.\n* Potencia máxima de 10.4 kW eficiente.\n* Diámetro de electrodo de hasta 5 mm.\n* Incluye cable y pinzas para soldar.\n* Clase de aislamiento F para mayor seguridad.\n* Tecnología inverter integrada.\n* Fase eléctrica: Monofásica.",
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781701993/Soldadora%20Inverter%20Gamma%20G3475ra.jpg"
-    ]
-  },
-  {
-    "product_id": 2342,
-    "product_name": "Soldadora Inverter Gamma G3469ara",
-    "sell_price": 107500,
-    "?column?": false,
-    "product_description": "* Voltaje: 220V\n* Potencia 4,1 kW\n* Tipo de soldadora: MMA\n* Intensidad de soldadura mínima de 10A\n* Intensidad de soldadura máxima de 120A\n* Accesorio incluido: pinza porta electrodo\n* Tecnología inverter integrada\n* Fase eléctrica: Monofásica",
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781701992/Soldadora%20Inverter%20Gamma%20G3469ara.jpg"
-    ]
-  },
-  {
-    "product_id": 2341,
-    "product_name": "Soldadora Inverter Gamma G3474ara",
-    "sell_price": 197500,
-    "?column?": false,
-    "product_description": "* Voltaje: 220V.\n* Potencia de 8.8 kW.\n* Compatibilidad con electrodos de 1.6 mm a 5 mm incluyendo modelos 6010, 6013, 7018 y aceros inoxidables 308l y 316l.\n* Tecnología inverter con pantalla digital para el ajuste preciso del amperaje de 10 A a 230 A durante la operación.\n* Sistema de protección térmica integrado con turbo ventilador que regula la temperatura interna ante uso prolongado.\n* Capacidad para soldar electrodos de corte y raspado manteniendo la estabilidad del arco en trabajos de alta exigencia.",
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781701991/Soldadora%20Inverter%20Gamma%20G3474ara.jpg"
-    ]
-  },
-  {
-    "product_id": 2337,
-    "product_name": "Heladera Cíclica Drean Hdr370f61e 362l Gris",
-    "sell_price": 947500,
-    "?column?": false,
-    "product_description": "",
-    "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781627172/Heladera%20C%C3%ADclica%20Drean%20Hdr370f61e%20362l%20Gris.jpg"
-    ]
-  },
-  {
-    "product_id": 2329,
-    "product_name": "Calefón Eléctrico Famesa PVC",
+    "product_id": 2041,
+    "product_name": "Mopa con Balde Delhi",
     "sell_price": 15500,
-    "?column?": false,
-    "product_description": "",
+    "product_description": "* Mango regulable de aluminio\r\n* Trapo de microfibra\r\n* Cabezal giratorio\r\n* Sin rotación 360 grados\r\n* Incluye repuestos\r\n* Balde centrifugador de plástico",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1778814204/Mopa%20con%20Balde%20Delhi.jpg"
+    ]
+  },
+  {
+    "product_id": 2053,
+    "product_name": "Cocina Calabria 50cm con Parrilla",
+    "sell_price": 265500,
+    "product_description": "* Multigas: apta para gas natural y envasado\n* Parrilla de acero inoxidable\n* Material resistente y fácil de limpiar",
     "category_id": 3,
-    "category_name": "Línea blanca (lavarropas, heladeras y termotanques)",
+    "category_name": "Electrodomésticos",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781384854/Calefon%20El%C3%A9ctrico%20Famesa%20Pvc.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779207683/Cocina%20Calabria%2050cm%20con%20Parrilla%20Inox.jpg"
     ]
   },
   {
-    "product_id": 2319,
-    "product_name": "Amoladora Angular 720w Lusqtoff",
-    "sell_price": 54900,
-    "?column?": false,
+    "product_id": 2059,
+    "product_name": "Calabria Cocina Semi Industrial 52cm",
+    "sell_price": 308000,
+    "product_description": "* Fabricada en acero inoxidable\n* Rejas de fundición de aluminio\n* Multigas: apta para gas natural y envasado",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779207896/Calabria%20Cocina%20Semi%20Industrial.jpg"
+    ]
+  },
+  {
+    "product_id": 2093,
+    "product_name": "Aspiradora Delhi 3 en 1 15Lts Polvo y Líquido",
+    "sell_price": 71500,
+    "product_description": "* Funciona con bolsa permanente de papel.\r\n* Manguera de 1.8m de largo.\r\n* Es apta para líquido.\r\n* Fuente de alimentación: corriente doméstica.\r\n* Potencia de 1200W.\r\n* Cable de 4m de largo.\r\n* Incluye accesorios.",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782488825/Products/Aspiradora%20Delhi%203%20en%201%2015Lts%20Polvo%20y%20L%C3%ADquido-1782488825121-4onzj.jpg"
+    ]
+  },
+  {
+    "product_id": 2094,
+    "product_name": "Motosierra Delhi 12 Pulgadas Inalámbrica 800w",
+    "sell_price": 77000,
+    "product_description": "* 21v\r\n* Motor brushless",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545172/Motosierra%20Delhi%2012%20Pulgadas.jpg"
+    ]
+  },
+  {
+    "product_id": 2095,
+    "product_name": "Hidrolavadora Delhi  DL-530H 1200w",
+    "sell_price": 83000,
+    "product_description": "* Presión máxima: 105 bar\n* Caudal de agua: 6 l/min\n* Manguera de 8m de largo incluida \n* Tiene ruedas para facilitar su transporte\n* Función de apagado automático incorporada al soltar el gatillo\n* Protector térmico integrado que protege al motor de sobrecalentamientos\n* Diseñada para poder utilizar distintos tipos de chorros con el fin de profundizar el lavado",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782229396/Products/Hidrolavadora%20Delhi%20%20DL-530H%201200w-1782229396390-sdzue.webp",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782229397/Products/Hidrolavadora%20Delhi%20%20DL-530H%201200w-1782229397276-ho5hi.webp"
+    ]
+  },
+  {
+    "product_id": 2096,
+    "product_name": "Aspiradora de Mano Delhi Sl-5240",
+    "sell_price": 24000,
+    "product_description": "",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545173/Aspiradora%20de%20Mano%20Delhi%20Sl-5240.jpg"
+    ]
+  },
+  {
+    "product_id": 2097,
+    "product_name": "Set de Juego de Mechas Bramer 101 Piezas",
+    "sell_price": 33500,
+    "product_description": "",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545173/Set%20de%20Juego%20de%20Mechas%20Bramer%20101%20Piezas.jpg"
+    ]
+  },
+  {
+    "product_id": 2098,
+    "product_name": "Aspiradora Delhi 25lts 3 en 1",
+    "sell_price": 83000,
+    "product_description": "* Incluye tres funciones en un mismo equipo",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545173/Aspiradora%20Delhi%2025lts%203%20en%201.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782488829/Products/Aspiradora%20Delhi%2025lts%203%20en%201-1782488829829-qjno0.jpg"
+    ]
+  },
+  {
+    "product_id": 2099,
+    "product_name": "Cortacerco Gamma 600w",
+    "sell_price": 107500,
+    "product_description": "* Modelo g1860",
+    "category_id": 12,
+    "category_name": "Herramientas",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545174/Cortacerco%20Gamma%20600w.jpg"
+    ]
+  },
+  {
+    "product_id": 2102,
+    "product_name": "Silla Gamer Delhi",
+    "sell_price": 124500,
+    "product_description": "* Colores disponibles",
+    "category_id": 1,
+    "category_name": "Tecnología y gaming",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545175/Silla%20Gamer%20Delhi.jpg"
+    ]
+  },
+  {
+    "product_id": 2103,
+    "product_name": "Silla de Oficina Delhi",
+    "sell_price": 59500,
+    "product_description": "",
+    "category_id": 1,
+    "category_name": "Tecnología y gaming",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779545175/Silla%20de%20Oficina%20Delhi.jpg"
+    ]
+  },
+  {
+    "product_id": 2132,
+    "product_name": "Plancha a Vapor 2200w Profile",
+    "sell_price": 22500,
     "product_description": null,
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382408/Amoladora%20Angular%20720w.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779820499/Plancha%20a%20Vapor%202200w.jpg"
     ]
   },
   {
-    "product_id": 2318,
-    "product_name": "Carretilla 75 Litros con Ruedas Plásticas",
-    "sell_price": 66500,
-    "?column?": false,
+    "product_id": 2137,
+    "product_name": "Cortadora de Pelo Delhi Dl-1848",
+    "sell_price": 17000,
+    "product_description": "* Corta y afeita\n* Resistente al agua\n* Carga rápida por usb\n* Autonomía de 90 minutos\n* Incluye 3 peines de corte de 1.5 3-6 y 9-12 mm cepillo de limpieza aceite para lubricación de cuchillas base cargadora y cable de carga usb",
+    "category_id": 8,
+    "category_name": "Belleza y cuidado personal",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779885874/Cortadora%20de%20Pelo%20Delhi%20Dl-1848.jpg"
+    ]
+  },
+  {
+    "product_id": 2138,
+    "product_name": "Cortabarba Inalámbrica Delhi Dl114",
+    "sell_price": 16500,
+    "product_description": "* Corta y afeita\n* Resistente al agua\n* Carga rápida por usb\n* Autonomía de 90 minutos\n* Incluye cabezal recortador corporal cabezal de afeitado cabezal de nariz y orejas 4 peines de corte cepillo de limpieza aceite para lubricación de cuchillas y cable de carga usb",
+    "category_id": 8,
+    "category_name": "Belleza y cuidado personal",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779885876/Cortabarba%20Inal%C3%A1mbrica%20Delhi%20Dl114.jpg"
+    ]
+  },
+  {
+    "product_id": 2153,
+    "product_name": "Bicicleta Paseo Dama Giovanna Rodado 26 con Canasto",
+    "sell_price": 208500,
+    "product_description": "* Colores disponibles: Verde agua - Beige - Roja - Blanca - Negra - Gris",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977868/Bicicleta%20Paseo%20Dama%20Giovanna%20Rodado%2026%20con%20Canasto.jpg"
+    ]
+  },
+  {
+    "product_id": 2154,
+    "product_name": "Bicicleta Giovanna Acero Rodado 29 21 Velocidades Hombre",
+    "sell_price": 202000,
+    "product_description": "* Colores disponibles: Negra - Blanca - Azul",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977870/Bicicleta%20Giovanna%20Acero%20Rodado%2029%2021%20Velocidades%20Hombre.jpg"
+    ]
+  },
+  {
+    "product_id": 2155,
+    "product_name": "Bicicleta Giovanna Alpina Mujer Blanca R24",
+    "sell_price": 186500,
+    "product_description": "* 21 velocidades",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977874/Bicicleta%20Giovanna%20Alpina%20Mujer%20Blanca.jpg"
+    ]
+  },
+  {
+    "product_id": 2156,
+    "product_name": "Bicicleta de Dama Giovanna R29",
+    "sell_price": 202000,
+    "product_description": "* Colores disponbiles: Blanca - Negra - Verde agua",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977874/Bicicleta%20Giovanna%20Rd29.jpg"
+    ]
+  },
+  {
+    "product_id": 2157,
+    "product_name": "Bicicleta Giovanna Allegra Rodado 20",
+    "sell_price": 199000,
+    "product_description": "* Colores disponbiles: Rosa - Verde agua",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977880/Bicicleta%20Giovanna%20Allegra%20Rodado%2020.jpg"
+    ]
+  },
+  {
+    "product_id": 2158,
+    "product_name": "Bicicleta Track Rodado 12 Infantil",
+    "sell_price": 70000,
+    "product_description": "* Viene en caja desarmada\n* Colores disponibles azul y naranja - rojo y azul - negro y naranja - lila y fucsia - blanco y fucsia",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977884/Bicicleta%20Track%20Rodado%2012%20Infantil.jpg"
+    ]
+  },
+  {
+    "product_id": 2159,
+    "product_name": "Bicicleta Cross Giovanna Rodado 16",
+    "sell_price": 172000,
+    "product_description": "* Colores disponibles: Azul - Roja",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977884/Bicicleta%20Cross%20Giovanna%20Rodado%2016.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779978548/Products/Bicicleta%20Cross%20Giovanna%20Rodado%2016-1%2C779%2C978%2C548%2C732-cas2l.jpg"
+    ]
+  },
+  {
+    "product_id": 2160,
+    "product_name": "Bicicleta Zambito R12 para Nene",
+    "sell_price": 71500,
     "product_description": null,
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382408/Carretilla%2075%20Litros.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779977890/Bicicleta%20Zambito%20R12%20para%20Nene.jpg"
     ]
   },
   {
-    "product_id": 2317,
-    "product_name": "Desmalezadora Gamma 55cc Gr1845ar",
-    "sell_price": 159900,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "product_id": 2209,
+    "product_name": "Fogonero Delhi 75 Cm",
+    "sell_price": 110000,
+    "product_description": "* Diámetro del brasero de 75 cm\n* Altura con tapa de 67 cm\n* Cubierta de malla de 61 x 14 cm\n* Parrilla a carbón de 35 cm de diámetro\n* Patas con recubrimiento de polvo negro\n* Incluye gancho para cenizas",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382407/Desmalezadora%20Gamma%2055cc%20Gr1845ar.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780579208/Fogonero%20Delhi%2075%20Cm.jpg"
     ]
   },
   {
-    "product_id": 2316,
-    "product_name": "Soplador 2000w Spl2000-7 Lusqtoff",
-    "sell_price": 58500,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "product_id": 2210,
+    "product_name": "Fogonero Delhi 58cm",
+    "sell_price": 88000,
+    "product_description": "* Dimensiones totales 58 x 58 x 32 cm\n* Altura de patas 22 cm\n* Estructura resistente y estable\n* Ideal para exteriores patios o terrazas\n* Diseño moderno y funcional",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382407/Soplador%202000w%20Spl2000-7.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780579209/Fogonero%20Delhi%20Dl-02-034%20de%2058%20Cm%20de%20Di%C3%A1metro.jpg"
     ]
   },
   {
-    "product_id": 2315,
-    "product_name": "Mini Motosierra a Batería Garden Plus",
-    "sell_price": 88500,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "product_id": 2211,
+    "product_name": "Banco Plegable para Camping o Jardín",
+    "sell_price": 67500,
+    "product_description": "* Diseño tipo valija\n* Superficie de plástico\n* Medidas de 180 cm de largo por 28 cm de ancho por 43 cm de alto",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382407/Mini%20Motosierra%20a%20Bater%C3%ADa.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780579209/Banco%20Plegable%20para%20Camping%20O%20Jard%C3%ADn.jpg"
     ]
   },
   {
-    "product_id": 2314,
-    "product_name": "Sierra Circular Lusqtoff 1500w",
-    "sell_price": 159900,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "product_id": 2216,
+    "product_name": "Monitor Oasis 21.5 Pulgadas Oa-view22li",
+    "sell_price": 114000,
+    "product_description": "* Resolución full hd\n* Panel led\n* Entradas hdmi y vga\n* Diseño slim\n* Ideal para hogar y oficina",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382407/Sierra%20Circular%20Lusqtoff.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780580311/Monitor%20Oasis%2021.5%20Pulgadas%20Oa-view22li.jpg"
     ]
   },
   {
-    "product_id": 2313,
-    "product_name": "Trompito Hormigonera 130 Litros",
-    "sell_price": 429900,
-    "?column?": false,
-    "product_description": "* Motor de 3/4 hp\n* Construcción maciza",
-    "category_id": 10,
-    "category_name": "Herramientas y jardín",
+    "product_id": 2217,
+    "product_name": "Escritorio Gamer Kanji Kj-dsk001 RGB",
+    "sell_price": 178000,
+    "product_description": "* Estructura metálica con acabado negro\n* Luz led interior con control rgb\n* Superficie texturizada y resistente\n* Mdf con melamina símil fibra de carbono\n* Espesor de 1,5 cm\n* Medidas de 120 x 60 x 73 cm",
+    "category_id": 1,
+    "category_name": "Tecnología y gaming",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781382406/Hormigonera%20130%20Litros.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780580311/Escritorio%20Gamer%20Kanji%20Kj-dsk001rgb.jpg"
+    ]
+  },
+  {
+    "product_id": 2218,
+    "product_name": "Silla de Oficina con Apoyacabezas DL-OC2",
+    "sell_price": 99000,
+    "product_description": "* Diseño ergonómico\n* Ruedas de polipropileno resistente\n* Estructura de polipropileno resistente\n* Asiento tapizado en tela\n* Dimensiones de 61 x 49 x 99.5 a 108 cm\n* Cuenta con ajuste de altura",
+    "category_id": 1,
+    "category_name": "Tecnología y gaming",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780580312/Silla%20de%20Oficina%20con%20Apoyacabezas%20Dl-oc2.jpg"
+    ]
+  },
+  {
+    "product_id": 2219,
+    "product_name": "Pc Oasis Intel I5 16GB RAM",
+    "sell_price": 314500,
+    "product_description": "* Procesador Intel i5 2400\n* Memoria RAM 16gb\n* Disco SSD 480gb\n* Incluye kit completo de teclado, mouse y parlantes",
+    "category_id": 1,
+    "category_name": "Tecnología y gaming",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780580313/Pc%20Oasis%20Intel%20I5.jpg"
+    ]
+  },
+  {
+    "product_id": 2227,
+    "product_name": "Smart Tv 32\" Noblex Disney",
+    "sell_price": 241000,
+    "product_description": "* Pantalla led hd\n* Smart tv\n* Conexión wifi\n* Acceso a netflix y youtube\n* Entradas hdmi y usb\n* Sonido estéreo\n* Diseño slim",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780921413/Smart%20Tv%20Noblex%20Disney%2032%20Pulgadas.jpg"
+    ]
+  },
+  {
+    "product_id": 2239,
+    "product_name": "Smart Tv 50\" Noblex Marvel Led",
+    "sell_price": 499500,
+    "product_description": "* Resolución 4k uhd\n* Conexión wifi\n* Acceso a netflix youtube y apps\n* Entradas hdmi y usb\n* Sonido estéreo\n* Diseño slim",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780924286/Smart%20Tv%20Noblex%20Marvel%2050%20Pulgadas%20Led.jpg"
+    ]
+  },
+  {
+    "product_id": 2277,
+    "product_name": "Mate Stanley Messi Original 236ml",
+    "sell_price": 60000,
+    "product_description": "* Disponible en color negro y celeste",
+    "category_id": 5,
+    "category_name": "Bazar y cocina",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781285984/Mate%20Stanley%20Messi%20236ml.jpg"
+    ]
+  },
+  {
+    "product_id": 2278,
+    "product_name": "Pelota de Fútbol de Cuero N5",
+    "sell_price": 17500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781286080/Pelotas%20de%20Cuero%20N5.jpg"
+    ]
+  },
+  {
+    "product_id": 2279,
+    "product_name": "Pelota de Fútbol Mundial 2026",
+    "sell_price": 15500,
+    "product_description": "",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781286081/Pelota%20Mundial%202026.jpg"
+    ]
+  },
+  {
+    "product_id": 2280,
+    "product_name": "Pelota de Fútbol AFA",
+    "sell_price": 31000,
+    "product_description": "",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781286081/Pelota%20de%20Futbol.jpg"
+    ]
+  },
+  {
+    "product_id": 2284,
+    "product_name": "Bicicleta Giovanna Rodado 29",
+    "sell_price": 202000,
+    "product_description": "* 21 Velocidades\n* Cuadro de acero",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781287833/Bicicleta%20Giovanna%20Rodado%2029%2021%20Velocidades.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781617157/Products/Bicicleta%20Giovanna%20Rodado%2029-1781617156360-b55mw.jpg"
+    ]
+  },
+  {
+    "product_id": 2285,
+    "product_name": "Pochoclera Eléctrica Dl-637",
+    "sell_price": 20500,
+    "product_description": "* Sistema de cocción por aire caliente\n* Potencia de 1200w\n* Incluye medidor\n* Protección contra sobrecalentamiento\n* Preparación rápida y sin aceite",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781288020/Pochoclera%20El%C3%A9ctrica%20Dl-637.jpg"
+    ]
+  },
+  {
+    "product_id": 2286,
+    "product_name": "Pochoclera Delhi Dl-902",
+    "sell_price": 111500,
+    "product_description": "* Preparación en aceite\n* Iluminación integrada\n* Incluye recetario\n* Incluye taza medidora\n* Diseño retro y compacto\n* Ideal para el hogar",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781288021/Pochoclera%20Delhi%20Dl-902.jpg"
+    ]
+  },
+  {
+    "product_id": 2287,
+    "product_name": "Pochoclera Delhi Dl-618",
+    "sell_price": 40000,
+    "product_description": "* Cocción por aire caliente sin aceite\n* Preparación en 2 a 3 minutos\n* Fácil de limpiar\n* Protección contra sobrecalentamiento\n* Diseño compacto y práctico",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781288021/Pochoclera%20Delhi%20Dl-618.jpg"
+    ]
+  },
+  {
+    "product_id": 2288,
+    "product_name": "Fogonero Delhi Dl2520bfp",
+    "sell_price": 52500,
+    "product_description": "* Se puede desmontar\n* Dimensiones 35x35x40 cm\n* Cuenco para brasero 35x35x35 cm",
+    "category_id": 11,
+    "category_name": "Hogar y jardín",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781288132/Fogonero%20Delhi%20Dl2520bfp.jpg"
     ]
   },
   {
     "product_id": 2289,
     "product_name": "Estufa Garrafera Plegable Delhi",
-    "sell_price": 148500,
-    "?column?": false,
+    "sell_price": 118500,
     "product_description": null,
-    "category_id": 9,
-    "category_name": "Climatización y calefacción",
+    "category_id": 10,
+    "category_name": "Climatización",
     "images": [
       "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781288161/Estufa%20Delhi%20Garrafera%20Plegable.jpg"
     ]
   },
   {
-    "product_id": 2243,
-    "product_name": "Reloj Smartwatch Dinax 7 en 1 S1000 Pro",
-    "sell_price": 22900,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 1,
-    "category_name": "Celulares, tablets y smartwatches",
+    "product_id": 2334,
+    "product_name": "Heladera Pioneer Home 135 Litros con Freezer",
+    "sell_price": 521500,
+    "product_description": "* Modelo pb135v\n* Dimensiones de 680 mm de ancho x 632 mm de profundidad x 870 mm de alto\n* Clase energética a",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781016864/Reloj%20Smartwatch%20Dinax%207%20en%201.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781627172/Heladera%20Pioneer%20Home%20135%20Litros%20con%20Freezer.jpg"
     ]
   },
   {
-    "product_id": 2237,
-    "product_name": "Smart Tv 43\" Kodak con Google TV",
-    "sell_price": 445900,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
+    "product_id": 2335,
+    "product_name": "Heladera Bajo Mesada Serie 90 Blanca Mod Kjh-hb90b",
+    "sell_price": 237000,
+    "product_description": "* Capacidad neta de 78 litros\n* Medidas de 450 x 458 x 840 mm\n* Usa refrigerante r600a\n* Sistema de descongelado manual\n* Cuenta con condensador interno\n* Incluye cajón para verduras\n* Tiene luz interior\n* Posee estantes de vidrio",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780924153/Smart%20Tv%2043%20Kodak.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781627172/Heladera%20Bajo%20Mesada%20Serie%2090%20Blanca%20Mod%20Kjh-hb90b.jpg"
     ]
   },
   {
-    "product_id": 2236,
-    "product_name": "Smart Tv 43\" Noblex con Roku TV",
-    "sell_price": 434000,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780924153/Smart%20Tv%2043%20Pulgadas%20Noblex.jpg"
-    ]
-  },
-  {
-    "product_id": 2231,
-    "product_name": "Smart Tv 32\" Noblex con Android TV",
-    "sell_price": 304900,
-    "?column?": false,
-    "product_description": null,
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780921414/Smart%20Tv%2032%20Pulgadas%20Noblex.jpg"
-    ]
-  },
-  {
-    "product_id": 2228,
-    "product_name": "Smart Tv 32\" Blanco Philips",
-    "sell_price": 279900,
-    "?column?": false,
-    "product_description": "* Sistema operativo Titan OS",
-    "category_id": 2,
-    "category_name": "Electrónica: audio, TV y gaming",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780921414/Smart%20Tv%2032%20Pulgadas%20Blanco%20Philips.jpg"
-    ]
-  },
-  {
-    "product_id": 2222,
-    "product_name": "Freidora de Aire 6.9 Litros Kanjihome",
-    "sell_price": 89900,
-    "?column?": false,
-    "product_description": "* 1700 watts de potencia\n* Temperatura regulable de 80 a 200 grados\n* Cocción sin humo ni olores\n* Apagado automático de seguridad\n* Temporizador de 0 a 60 minutos\n* Panel de control digital",
-    "category_id": 4,
-    "category_name": "Cocina y electrodomésticos",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780584546/Freidora%20de%20Aire%206.9%20Litros%20Kanjihome.jpg,https://res.cloudinary.com/db8b2c9gb/image/upload/v1783461613/Products/Freidora%20de%20Aire%206.9%20Litros%20Kanjihome-1783461613525-9irom.jpg"
-    ]
-  },
-  {
-    "product_id": 2201,
-    "product_name": "Convector Star Trak Stcoe",
-    "sell_price": 39500,
-    "?column?": false,
-    "product_description": "* 3 niveles de calor\n* Diseño compacto\n* Producto normalizado\n* Termostato regulable",
-    "category_id": 9,
-    "category_name": "Climatización y calefacción",
-    "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782308443/Products/Convector%20Star%20Trak%20Stcoe-1782308443419-thtco.jpg"
-    ]
-  },
-  {
-    "product_id": 2180,
-    "product_name": "Cama Superpuesta de Caño",
-    "sell_price": 219900,
-    "?column?": false,
-    "product_description": "",
+    "product_id": 2357,
+    "product_name": "Bicicleta Giovanna Rodado 20 Blanca",
+    "sell_price": 178000,
+    "product_description": "* Diseño cross",
     "category_id": 7,
-    "category_name": "Muebles y organización del hogar",
+    "category_name": "Deportes y bienestar",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1780324610/Cama%20Superpuesta%20de%20Ca%C3%B1o.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781729647/Bicicleta%20Giovanna%20Rodado%2020%20Blanca.jpg"
     ]
   },
   {
-    "product_id": 2164,
-    "product_name": "Bicicleta Fiat Rodado 29 Mtb",
-    "sell_price": 284900,
-    "?column?": false,
-    "product_description": "* Cuadro de aluminio\n* 21 velocidades",
-    "category_id": 11,
-    "category_name": "Bicicletas",
+    "product_id": 2358,
+    "product_name": "Monopatín Infantil Wx-816",
+    "sell_price": 64000,
+    "product_description": "* Scooter plegable\n* Ruedas reforzadas\n* Altura ajustable entre 67 y 94 cm\n* Incluye luces y sonido\n* Requiere 2 pilas aa no incluidas\n* Colores disponibles: negro rosa y rojo",
+    "category_id": 7,
+    "category_name": "Deportes y bienestar",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779980132/Bicicleta%20Fiat%20Rodado%2029%20Mtb.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781729647/Monopat%C3%ADn%20Infantil%20Wx-816.jpg"
     ]
   },
   {
-    "product_id": 2152,
-    "product_name": "Vaso Madrid 395ml X6 Unidades",
-    "sell_price": 20900,
-    "?column?": false,
+    "product_id": 2360,
+    "product_name": "Monopatín Delhi Wx-813 Colores Negro Rosa Rojo",
+    "sell_price": 65500,
+    "product_description": "* Scooter plegable\n* Altura ajustable de 65 71 y 78 cm\n* Incluye luces y sonido\n* Funciona con 3 pilas aa no incluidas",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781729648/Monopat%C3%ADn%20Delhi%20Wx-813%20Colores%20Negro%20Rosa%20Rojo.jpg"
+    ]
+  },
+  {
+    "product_id": 2405,
+    "product_name": "Caloventor Eléctrico Delhi DL-2000 Blanco/Negro",
+    "sell_price": 17500,
     "product_description": "",
-    "category_id": 5,
-    "category_name": "Vajilla, ollas y utensilios de cocina",
+    "category_id": 10,
+    "category_name": "Climatización",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779976313/Vaso%20Madrid%20395ml%20X6%20Unidades.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877065/Caloventor%20El%C3%A9ctrico%20Delhi%20Colores%20Negro%20Y%20Blanco.jpg"
     ]
   },
   {
-    "product_id": 2151,
-    "product_name": "Vaso Copón Dubai Nadir 480ml x6 Unidades",
-    "sell_price": 18500,
-    "?column?": false,
+    "product_id": 2408,
+    "product_name": "Calefactor Axel Vitro sin Turbo",
+    "sell_price": 66000,
+    "product_description": "",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877066/Calefactor%20Axel%20Vitro%20sin%20Turbo.jpg"
+    ]
+  },
+  {
+    "product_id": 2409,
+    "product_name": "Convector Eléctrico Delhi DL-1500",
+    "sell_price": 30500,
+    "product_description": "* Tiene dos niveles de potencia de 750w y 1500w\n* Disponible en color negro o blanco",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877066/Convector%20El%C3%A9ctrico%20Delhi%20Mod%20Dl1500.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877215/Products/Convector%20El%C3%A9ctrico%20Delhi%20Mod%20Dl1500-1781877215878-3lqf9.jpg"
+    ]
+  },
+  {
+    "product_id": 2410,
+    "product_name": "Convector Vitro Eléctrico Delhi 4000c 2000w",
+    "sell_price": 87000,
+    "product_description": "* Incluye perilla para controlar la temperatura\n* Es fácil de transportar\n* Se puede instalar de forma fija o móvil",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877067/Convector%20El%C3%A9ctrico%20Vitro%20Delhi%204000c%202000w.jpg"
+    ]
+  },
+  {
+    "product_id": 2411,
+    "product_name": "Convector Delhi DL-2000 Blanco/Negro",
+    "sell_price": 40500,
+    "product_description": "* 3 niveles de potencia: 750w - 1250w - 2000w",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877068/Convector%20Delhi%20Dl-2000%20Negro%20Y%20Blanco.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877218/Products/Convector%20Delhi%20Dl-2000%20Blanco/Negro-1781877218363-swnaw.jpg"
+    ]
+  },
+  {
+    "product_id": 2412,
+    "product_name": "Estufa Halógena Giratoria Delhi DL-3VA",
+    "sell_price": 26500,
     "product_description": null,
-    "category_id": 5,
-    "category_name": "Vajilla, ollas y utensilios de cocina",
+    "category_id": 10,
+    "category_name": "Climatización",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779976313/Vaso%20Dubai%20480ml.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1781877068/Estufa%20Hal%C3%B3gena%20Delhi%20Dl-3va.jpg"
     ]
   },
   {
-    "product_id": 2148,
-    "product_name": "Set de 6 Vasos Sevilha 395ml",
-    "sell_price": 21900,
-    "?column?": false,
+    "product_id": 2452,
+    "product_name": "Lavarropas Semiautomático Calabria con Bomba de Desagote",
+    "sell_price": 150000,
     "product_description": "",
-    "category_id": 5,
-    "category_name": "Vajilla, ollas y utensilios de cocina",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
     "images": [
-      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1779976306/Set%20de%206%20Vasos%20Sevilha%20395ml.jpg"
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782159896/Products/Lavarropas%20Semiautom%C3%A1tico%20Calabria%20con%20Bomba%20de%20Desagote-1782159896331-gmzgn.webp"
+    ]
+  },
+  {
+    "product_id": 2453,
+    "product_name": "Secarropa Calabria 5.5 Kg",
+    "sell_price": 135000,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782159955/Products/Secarropa%20Calabria%205.5%20Kg-1782159955409-rq2f6.jpg"
+    ]
+  },
+  {
+    "product_id": 2454,
+    "product_name": "Lavarropas Semiautomático Codini 10 Kg",
+    "sell_price": 140000,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782160042/Products/Lavarropas%20Semiautom%C3%A1tico%20Codini%2010%20Kg-1782160041946-kdvsd.webp",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782160042/Products/Lavarropas%20Semiautom%C3%A1tico%20Codini%2010%20Kg-1782160042590-yl69f.webp"
+    ]
+  },
+  {
+    "product_id": 2455,
+    "product_name": "Secarropas Codini Compacto 6.5 Kg",
+    "sell_price": 153000,
+    "product_description": "",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782159644/Products/Secarropas%20Codini%20Compacto%206.5%20Kg-1782159644126-7tcuj.webp",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782159645/Products/Secarropas%20Codini%20Compacto%206.5%20Kg-1782159645200-r0d1g.webp"
+    ]
+  },
+  {
+    "product_id": 2482,
+    "product_name": "Calefactor Infrarrojo Brochure 2000w con Lámpara Halógena",
+    "sell_price": 133000,
+    "product_description": "* Altura mínima 1.80 mts\n* Incluye soporte ajustable y direccionable con movilidad de 90 grados\n* Cuenta con regulación de potencia",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782313247/Calefactor%20Infrarrojo%20Brochure%202000w%20con%20L%C3%A1mpara%20Hal%C3%B3gena%20Altura%20M%C3%ADnima%201.80%20Mts.jpg"
+    ]
+  },
+  {
+    "product_id": 2483,
+    "product_name": "Calefactor de Exterior Delhi Ht-h-3001 220cm 17kg",
+    "sell_price": 208000,
+    "product_description": "* Funciona con gas envasado apto para uso exterior\n* Incluye ruedas para facilitar el traslado\n* Cuenta con una instalación sencilla",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782313247/Calefactor%20de%20Exterior%20Delhi%20Ht-h-3001%20220cm%2017kg.jpg"
+    ]
+  },
+  {
+    "product_id": 2484,
+    "product_name": "Calefactor Cañón a Gas Lusqtoff",
+    "sell_price": 170000,
+    "product_description": "* Alta potencia calorífica\n* Encendido rápido\n* Estructura metálica resistente\n* Manija para transporte\n* Ideal para talleres y ambientes amplios",
+    "category_id": 10,
+    "category_name": "Climatización",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782313248/Calefactor%20Ca%C3%B1%C3%B3n%20a%20Gas%20Lusqtoff.jpg"
+    ]
+  },
+  {
+    "product_id": 2489,
+    "product_name": "Smart Tv 40\" Crown Mustang ST005-2W",
+    "sell_price": 255000,
+    "product_description": "* Pocas unidades disponibles!",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782320681/Tv%20Smart%20Crown%20Mustang%2040%20Pulgadas%20Cm-40st005-2w.jpg"
+    ]
+  },
+  {
+    "product_id": 2492,
+    "product_name": "Smart Tv 43\" Crown Mustang ST0052W",
+    "sell_price": 302500,
+    "product_description": "* Pocas unidades disponibles!",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782320682/Tv%20Smart%2043%20Crown%20Mustang%20Cm43st0052w.jpg"
+    ]
+  },
+  {
+    "product_id": 2493,
+    "product_name": "Smart Tv 32\" Crown Mustang CM-32MT005-2W",
+    "sell_price": 191500,
+    "product_description": null,
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782320683/Tv%20Smart%2032%20Pulgadas%20Crown%20Mustang.jpg"
+    ]
+  },
+  {
+    "product_id": 2508,
+    "product_name": "Cama Elástica Lusqtoff 3 Metros",
+    "sell_price": 392500,
+    "product_description": "* Incluye red de protección\n* Incluye escalera\n* Estructura metálica resistente\n* Lona de salto de alta resistencia\n* Ideal para uso familiar y recreativo\n* Fácil armado",
+    "category_id": 20,
+    "category_name": "Juguetes y juegos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782739825/Cama%20El%C3%A1stica%20Lusqtoff%203%20Metros.jpg"
+    ]
+  },
+  {
+    "product_id": 2519,
+    "product_name": "Auricular JBL 520BT",
+    "sell_price": 72000,
+    "product_description": "* Incluye micrófono.\n* Resistente al polvo.\n* Uso adecuado para deportes.\n* Tamaño del altavoz: 3.3 cm.\n* Alcance inalámbrico de 10 m.\n* Bluetooth 5.3\n* Duración máxima de la batería: 57h",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782822448/Auricular%20Jbl%20520.jpg"
+    ]
+  },
+  {
+    "product_id": 2520,
+    "product_name": "Reloj Inteligente Y Auricular KM-901",
+    "sell_price": 20500,
+    "product_description": "",
+    "category_id": 1,
+    "category_name": "Tecnología y gaming",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782822448/Reloj%20Inteligente%20Y%20Auricular%20Km-901.jpg"
+    ]
+  },
+  {
+    "product_id": 2521,
+    "product_name": "Auriculares JBL Wave Buds 2 Negro",
+    "sell_price": 89500,
+    "product_description": "* Con cancelación de ruido\n* Con micrófono\n* Duración de la batería: 40 h\n* Bluetooth 5.3",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782822449/Auriculares%20Jbl%20Wave%20Buds%202%20Color%20Negro.jpg"
+    ]
+  },
+  {
+    "product_id": 2522,
+    "product_name": "Auricular JBL Tune 720BT",
+    "sell_price": 102000,
+    "product_description": "* Micrófono integrado\n* Cable de carga de 1.2m\n* Cable desmontable\n* Alcance inalámbrico de 15 metros\n* Bluetooth 5.3\n* Duración máxima de la batería: 70h",
+    "category_id": 2,
+    "category_name": "Electrónica, audio y video",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782822449/Auricular%20Jbl%20Tune%20720bt.jpg"
+    ]
+  },
+  {
+    "product_id": 2581,
+    "product_name": "Horno Eléctrico Delhi Dl-065 2200w 65lts",
+    "sell_price": 148500,
+    "product_description": "* Control de temperatura de 0º a 300º c\n* Temporizador de hasta 120 minutos\n* Puerta con vidrio templado",
+    "category_id": 4,
+    "category_name": "Pequeños electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1783383935/Horno%20El%C3%A9ctrico%20Delhi%20Dl-065%202200w%2065lts.jpg"
     ]
   }
 ]

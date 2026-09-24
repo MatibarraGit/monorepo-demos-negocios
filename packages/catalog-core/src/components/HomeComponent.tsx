@@ -38,7 +38,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
     <>
       <span id="top" />
 
-      <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} contact={siteConfig.contact} mainBranch={siteConfig.mainBranch} siteName={siteConfig.name} navLinks={siteConfig.navLinks} />
+      <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} mainBranch={siteConfig.mainBranch} siteName={siteConfig.name} navLinks={siteConfig.navLinks} />
 
       <main className="flex-1">
         <HeroCarousel mainBranch={siteConfig.mainBranch} whatsappDefaultMessage={siteConfig.whatsappDefaultMessage} />
@@ -76,7 +76,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
 
       <Footer siteConfig={siteConfig} />
 
-      {siteConfig.branches !== undefined && siteConfig.branches.length > 1 ? (
+      {siteConfig.branches !== undefined && siteConfig.branches.filter((b) => b?.phone !== undefined).length > 1 ? (
         <WhatsAppFabDrowpdown branches={siteConfig.branches} />
       ) : (
         <WhatsAppFab mainBranch={siteConfig.mainBranch} whatsappDefaultMessage={siteConfig.whatsappDefaultMessage} />

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Clock, MapPin, Phone } from "lucide-react";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
-import { BranchType, SiteConfigType } from "../types/siteConfig.types";
+import { BranchType, MainBranchType, SiteConfigType } from "../types/siteConfig.types";
 
 export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
   const IS_UNIQUE_BRANCH = siteConfig.branches.length === 1
@@ -33,16 +33,15 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
               {siteConfig.description}
             </p>
 
-            {/* <a
-              className="text-primary-foreground/80 hover:text-primary-foreground mt-4 inline-flex items-start gap-2 py-1 text-sm transition-colors"
-              href={`mailto:${CONTACT_EMAIL}`}
-            >
-              <Mail className="mt-0.5 size-4 shrink-0" aria-hidden />
-                  `wrap-anywhere` (y no `wrap-break-word`) porque solo ese achica
-                  el min-content: es lo que deja que la columna se angoste en
-                  celulares en vez de estirar el grid.
-              <span className="min-w-0 wrap-anywhere">{CONTACT_EMAIL}</span>
-            </a> */}
+            {siteConfig.contact.contactEmail && (
+              <a
+                className="text-primary-foreground/80 hover:text-primary-foreground mt-4 inline-flex items-start gap-2 py-1 text-sm transition-colors"
+                href={`mailto:${siteConfig.contact.contactEmail}`}
+              >
+                <Mail className="mt-0.5 size-4 shrink-0" aria-hidden />
+                <span className="min-w-0 wrap-anywhere">{siteConfig.contact.contactEmail}</span>
+              </a>
+            )}
           </div>
 
           <div className="min-w-0">
@@ -106,7 +105,7 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
 
           {IS_UNIQUE_BRANCH ? (
             <div className="min-w-0 mt-2 flex flex-col gap-2">              
-              <FooterBranchInformation mainBranch={siteConfig.mainBranch} />
+              <FooterBranchInformation branch={siteConfig.mainBranch} />
               
               <div
                 className="text-primary-foreground/75 hover:text-primary-foreground flex items-center gap-2 py-0.5 text-sm tabular-nums transition-colors"
@@ -127,7 +126,7 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
                 <li key={branch.id} className="flex gap-3">
                   <div className="min-w-0">
                     <p className="font-bold">{branch.name}</p>
-                    <FooterBranchInformation mainBranch={siteConfig.mainBranch} />
+                    <FooterBranchInformation branch={branch} mainBranch={siteConfig.mainBranch}/>
                   </div>
                 </li>
               ))}
@@ -146,25 +145,25 @@ export function Footer({ siteConfig }: { siteConfig: SiteConfigType }) {
   );
 }
 
-const FooterBranchInformation = ({ mainBranch }: { mainBranch: BranchType }) => {
+const FooterBranchInformation = ({ branch, mainBranch }: { branch: BranchType, mainBranch?: MainBranchType }) => {
   return (
     <>
       <a
         className="text-primary-foreground/75 hover:text-primary-foreground mt-1.5 flex items-start gap-2 py-0.5 text-sm transition-colors"
-        href={mainBranch.addressHref}
+        href={branch.addressHref}
         target="_blank"
         rel="noreferrer"
       >
         <MapPin className="mt-0.5 size-4 shrink-0" aria-hidden />
-        {mainBranch.address}
+        {branch.address}
       </a>
 
       <a
         className="text-primary-foreground/75 hover:text-primary-foreground flex items-center gap-2 py-0.5 text-sm tabular-nums transition-colors"
-        href={`tel:${mainBranch.phone}`}
+        href={`tel:${branch.phone ?? mainBranch?.phone}`}
       >
         <Phone className="size-4 shrink-0" aria-hidden />
-        {mainBranch.phoneDisplay}
+        {branch.phoneDisplay ?? mainBranch?.phoneDisplay}
       </a>
     </>
   )

@@ -6,13 +6,12 @@ import { Menu } from "lucide-react";
 
 import { CartSheet, ProductSearch, ThemeToggle } from "../components";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@repo/catalog-core/components/ui";
-import { BranchType, ContactType } from "../types/siteConfig.types";
+import { MainBranchType } from "../types/siteConfig.types";
 
 type HeaderProps = {
   searchTerm: string;
   onSearchChange: (value: string) => void;
-  contact: ContactType;
-  mainBranch: BranchType;
+  mainBranch: MainBranchType;
   siteName: string;
   navLinks: { href: string, label: string }[];
 };
@@ -20,8 +19,7 @@ type HeaderProps = {
 /** Header sticky sobre `--color-primary`: logo, buscador, navegación y carrito. */
 export function Header({ 
   searchTerm, 
-  onSearchChange, 
-  contact,
+  onSearchChange,
   mainBranch,
   siteName, 
   navLinks
@@ -63,7 +61,7 @@ export function Header({
           {/* En mobile el toggle vive dentro del menú hamburguesa (abajo) */}
           <ThemeToggle className="hidden lg:inline-flex" />
 
-          <CartSheet contact={contact} mainBranch={mainBranch} />
+          <CartSheet mainBranch={mainBranch} />
 
           <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild>
