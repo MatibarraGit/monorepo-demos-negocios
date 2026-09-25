@@ -1,0 +1,14 @@
+[
+  {
+    "product_id": 708,
+    "product_name": "Lavarropas Inverter Silver Kanjihome 8 Kilos",
+    "sell_price": 456500,
+    "product_description": "* Capacidad de 8 Kilos\n* Display led: 11 programas \n* Bloqueo para niños\n* Volumen del tambor: 52lts \n* Presión de agua: 0.02-0.8mpa \n* Peso neto/bruto: 52/55kg",
+    "category_id": 3,
+    "category_name": "Electrodomésticos",
+    "images": [
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782158257/Products/Lavarropas%20Inverter%20Silver%20Kanjihome%208%20Kilos-1782158257178-gg7kr.jpg",
+      "https://res.cloudinary.com/db8b2c9gb/image/upload/v1782158275/Products/Lavarropas%20Inverter%20Silver%20Kanjihome%208%20Kilos-1782158275489-dcvf2.jpg"
+    ]
+  }
+]

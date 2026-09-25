@@ -8,6 +8,7 @@ import {
   ContactSection,
   HeroCarousel,
   ProductGrid,
+  ThemeToggle,
   WhatsAppFab,
   WhatsAppFabDrowpdown
 } from ".";
@@ -40,7 +41,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
 
       <Header searchTerm={searchTerm} onSearchChange={setSearchTerm} mainBranch={siteConfig.mainBranch} siteName={siteConfig.name} navLinks={siteConfig.navLinks} />
 
-      <main className="flex-1">
+      <main className="flex-1 relative">
         <HeroCarousel mainBranch={siteConfig.mainBranch} whatsappDefaultMessage={siteConfig.whatsappDefaultMessage} />
 
         <section id="catalogo" className="content-wrapper mt-16 scroll-mt-32">
@@ -72,6 +73,7 @@ export function HomeComponent({ products, siteConfig }: HomeComponentType) {
         <AboutSection />
 
         <ContactSection siteConfig={siteConfig} />
+        <ThemeToggle className="p-6 fixed right-4 bottom-20 z-50 bg-primary cursor-pointer hover:bg-primary/90 xs:hidden" />
       </main>
 
       <Footer siteConfig={siteConfig} />

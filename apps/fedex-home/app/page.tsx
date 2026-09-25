@@ -7,11 +7,9 @@ import dict from "./dict.json";
 import products from "./products.json"
 
 export default function Home() {
-  const config = { ...siteConfig, mainBranch: siteConfig.branches[0]! }
-
   return (
     <DictionaryProvider dictionary={dict}>
-      <HomeComponent products={products} siteConfig={config} />
+      <HomeComponent products={products} siteConfig={siteConfig} />
     </DictionaryProvider>
   );
 }

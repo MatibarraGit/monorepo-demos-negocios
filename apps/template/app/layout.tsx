@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { LayoutComponent } from "@repo/catalog-core/components/LayoutComponent";
 
-const SITE_NAME = "";
-const SITE_DESCRIPTION = "";
+const SITE_NAME = "Template Name";
+const SITE_DESCRIPTION = "Template Description";
 // TODO: reemplazar por el dominio real una vez que el cliente lo defina/compre.
-const SITE_URL = "";
+const SITE_URL = "https://template_url.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
